@@ -9,7 +9,7 @@ class ComposerStaticIniteee22bf21c0d89d9e07e031bb80915cc
     public static $prefixLengthsPsr4 = array (
         'z' => 
         array (
-            'zpdev\\' => 6,
+            'zpdevfrw\\' => 9,
         ),
         'a' => 
         array (
@@ -18,9 +18,9 @@ class ComposerStaticIniteee22bf21c0d89d9e07e031bb80915cc
     );
 
     public static $prefixDirsPsr4 = array (
-        'zpdev\\' => 
+        'zpdevfrw\\' => 
         array (
-            0 => __DIR__ . '/..' . '/zpdev',
+            0 => __DIR__ . '/..' . '/zpdevfrw',
         ),
         'app\\' => 
         array (
