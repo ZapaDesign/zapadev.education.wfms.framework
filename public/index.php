@@ -7,15 +7,16 @@ if(PHP_MAJOR_VERSION < 8){
 }
 
 require_once dirname(__DIR__) . '/config/init.php';
+require_once HELPERS . '/functions.php';
+require_once CONFIG . '/routs.php';
 
 new App();
 
+//echo '<pre>';
+//var_dump(App::$app->getProperties());
+//echo '</pre>';
 
-echo '<pre>';
-var_dump(App::$app->getProperties());
-echo '</pre>';
+debug(\zpdevfrw\Router::getRoutes());
 
-echo '<pre>';
-var_dump(App::$app->getProperty('admin_email'));
-echo '</pre>';
+//throw new Exception('Error!!!');
 

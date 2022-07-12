@@ -6,7 +6,7 @@ namespace zpdevfrw;
 //TODO Education: Патерн "Синглтон"
 trait TSingleton
 {
-    //TODO Education: Обнуляемые типы (PHP 7.4)
+    //TODO Education: Обнуляемые типы (PHP 7.1)
     private static ?self $instance = null;
 
     private function __construct()
