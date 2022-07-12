@@ -1,11 +1,11 @@
 <?php
-
-/*
+//TODO Education: PHPDoc
+/**
  * @var $errno \zpdevfrw\ErrorHandler
  * @var $errstr \zpdevfrw\ErrorHandler
  * @var $errfile \zpdevfrw\ErrorHandler
  * @var $errline \zpdevfrw\ErrorHandler
- * */
+ **/
 ?>
 
 <!doctype html>
@@ -18,7 +18,7 @@
 </head>
 <body>
 
-<h1>Error!</h1>
+<h1>Error</h1>
 <p><b>Code:</b> <?= $errno; ?></p>
 <p><b>Message:</b> <?= $errstr; ?></p>
 <p><b>File:</b> <?= $errfile; ?></p>

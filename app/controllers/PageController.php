@@ -2,7 +2,9 @@
 
 namespace app\controllers;
 
-class PageController
+use zpdevfrw\Controller;
+
+class PageController extends Controller
 {
     public function viewAction() {
     

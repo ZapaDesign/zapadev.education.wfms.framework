@@ -2,7 +2,9 @@
 
 namespace app\controllers\admin;
 
-class MainController
+use zpdevfrw\Controller;
+
+class MainController extends Controller
 {
     public function indexAction() {
         echo 'ggg';

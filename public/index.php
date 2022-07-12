@@ -12,11 +12,5 @@ require_once CONFIG . '/routs.php';
 
 new App();
 
-//echo '<pre>';
-//var_dump(App::$app->getProperties());
-//echo '</pre>';
 
-debug(\zpdevfrw\Router::getRoutes());
-
-//throw new Exception('Error!!!');
 

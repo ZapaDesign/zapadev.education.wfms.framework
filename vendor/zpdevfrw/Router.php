@@ -6,33 +6,64 @@ class Router
 {
     protected static array $routes = [];
     protected static array $route = [];
-    
+
     public static function add($regexp, $route = [])
     {
         self::$routes[$regexp] = $route;
     }
-    
+
     public static function getRoutes(): array
     {
         return self::$routes;
     }
-    
+
     public static function grtRoute(): array
     {
         return self::$route;
     }
-    
+
+    /**
+     * @param $url
+     *
+     * @return string
+     */
+    protected static function removeQueryString($url)
+    {
+        if ($url) {
+            $params = explode('&', $url, 2);
+            //TODO Education: function str_contains() - PHP8
+            if (false === str_contains($params[0], '=')) {
+                return rtrim($params[0], '/');
+            }
+        }
+
+        return '';
+    }
+
+    /**
+     * @param $url
+     *
+     * @throws \Exception
+     */
     public static function dispatch($url)
     {
+        $url = self::removeQueryString($url);
         if (self::matchRoute($url)) {
-            $controller = 'app\conrtollers\\' . self::$route['admin_prefix'] . self::$route['controller'] . 'Controller';
-            if(class_exists($controller)){
+            $controller = 'app\controllers\\' . self::$route['admin_prefix'] . self::$route['controller'] . 'Controller';
+            if (class_exists($controller)) {
+
+                /** @var Controller $controllerObject*/
+
                 $controllerObject = new $controller(self::$route);
-                $action = self::lowerCamelCase(self::$route['action'] . 'Action');
-                if(method_exists($controllerObject, $action)) {
+
+                $controllerObject->getModel();
+
+                $action           = self::lowerCamelCase(self::$route['action'] . 'Action');
+                if (method_exists($controllerObject, $action)) {
                     $controllerObject->$action();
+                    $controllerObject->getView();
                 } else {
-                    throw new \Exception("Action {$controller}::{action} not found", 404);
+                    throw new \Exception("Action {$controller}::{$action} not found", 404);
                 }
             } else {
                 throw new \Exception("Controller {$controller} not found", 404);
@@ -41,7 +72,7 @@ class Router
             throw new \Exception('Page not found', 404);
         }
     }
-    
+
     public static function matchRoute($url): bool
     {
         foreach (self::$routes as $pattern => $route) {
@@ -51,31 +82,31 @@ class Router
                         $route[$k] = $v;
                     }
                 }
-                
+
                 if (empty($route['action'])) {
                     $route['action'] = 'index';
                 }
-                
+
                 if ( ! isset($route['admin_prefix'])) {
                     $route['admin_prefix'] = '';
                 } else {
                     $route['admin_prefix'] .= '\\';
                 }
                 $route['controller'] = self::upperCamelCase($route['controller']);
-                self::$route = $route;
-                debug($route);
+                self::$route         = $route;
+
                 return true;
             }
         }
-        
+
         return false;
     }
-    
+
     public static function upperCamelCase($name): string
     {
         return str_replace(' ', '', ucwords(str_replace('-', ' ', $name)));
     }
-    
+
     public static function lowerCamelCase($name): string
     {
         return lcfirst(self::upperCamelCase($name));
