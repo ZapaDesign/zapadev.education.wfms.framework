@@ -5,7 +5,7 @@ namespace zpdevfrw;
 class View
 {
     public string $content = '';
-
+    
     public function __construct(
         public $route,
         public $layout = '',
@@ -16,7 +16,7 @@ class View
             $this->layout = $this->layout ? : LAYOUT;
         }
     }
-
+    
     public function render($data)
     {
         if (is_array($data)) {
@@ -31,7 +31,7 @@ class View
         } else {
             throw new \Exception("View {$view_file} not found", 500);
         }
-
+        
         if (false !== $this->layout) {
             $layout_file = APP . "/views/layouts/{$this->layout}.php";
             if (is_file($layout_file)) {
@@ -40,5 +40,15 @@ class View
                 throw new \Exception("Layout {$layout_file} not found", 500);
             }
         }
+    }
+    
+    public function getMeta()
+    {
+        //TODO Education: PHP_EOL
+        $out = '<title>' . h($this->meta['title']) . '</title>' . PHP_EOL;
+        $out .= '<meta name="description" content="' . h($this->meta['description']) . '">' . PHP_EOL;
+        $out .= '<meta name="keywords" content="' . h($this->meta['keywords']) . '">' . PHP_EOL;
+        
+        return $out;
     }
 }

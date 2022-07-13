@@ -136,3 +136,7 @@
 ===============
 [2022-07-13 01:05:49] Error message: Page not found | File: G:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 72 
 ===============
+[2022-07-13 08:55:50] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 72 
+===============
+[2022-07-13 09:09:10] Error message: Undefined variable $test | File: D:\zapaDEV\zapadev.education.wfms.framework\app\views\Main\index.php | String: 9 
+===============
