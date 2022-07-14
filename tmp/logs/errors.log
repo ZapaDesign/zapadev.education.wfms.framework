@@ -298,3 +298,29 @@
 ===============
 [2022-07-14 22:48:56] Error message: Page not found | File: G:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 72 
 ===============
+[2022-07-14 23:02:04] Error message: Page not found | File: G:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 72 
+===============
+[2022-07-14 23:04:04] Error message: Undefined variable $slides | File: G:\zapaDEV\zapadev.education.wfms.framework\app\views\Main\index.php | String: 9 
+===============
+[2022-07-14 23:04:46] Error message: Undefined variable $slides | File: G:\zapaDEV\zapadev.education.wfms.framework\app\views\Main\index.php | String: 10 
+===============
+[2022-07-14 23:04:53] Error message: Undefined variable $slides | File: G:\zapaDEV\zapadev.education.wfms.framework\app\views\Main\index.php | String: 10 
+===============
+[2022-07-14 23:07:11] Error message: Undefined variable $slides | File: G:\zapaDEV\zapadev.education.wfms.framework\app\views\Main\index.php | String: 10 
+===============
+[2022-07-14 23:07:12] Error message: Page not found | File: G:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 72 
+===============
+[2022-07-14 23:08:06] Error message: Undefined variable $slides | File: G:\zapaDEV\zapadev.education.wfms.framework\app\views\Main\index.php | String: 10 
+===============
+[2022-07-14 23:08:08] Error message: Undefined variable $slides | File: G:\zapaDEV\zapadev.education.wfms.framework\app\views\Main\index.php | String: 10 
+===============
+[2022-07-14 23:08:09] Error message: Page not found | File: G:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 72 
+===============
+[2022-07-14 23:09:07] Error message: Page not found | File: G:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 72 
+===============
+[2022-07-14 23:21:46] Error message: Undefined variable $products | File: G:\zapaDEV\zapadev.education.wfms.framework\app\views\parts\products_loop.php | String: 7 
+===============
+[2022-07-14 23:21:49] Error message: Undefined variable $products | File: G:\zapaDEV\zapadev.education.wfms.framework\app\views\parts\products_loop.php | String: 7 
+===============
+[2022-07-14 23:38:20] Error message: Controller app\controllers\ProductController not found | File: G:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 69 
+===============
