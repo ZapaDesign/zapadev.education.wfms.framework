@@ -3,19 +3,21 @@
 namespace app\controllers;
 
 use app\models\Main;
-use zpdevfrw\Controller;
+use RedBeanPHP\R;
 
 /**
  * @property Main $model
  */
 
-class MainController extends Controller
+class MainController extends AppController
 {
     public function indexAction()
     {
-        $names = $this->model->get_names();
-        $this->setMeta('Home page', 'Description', 'keywords...');
-        //TODO Education: PHP function compact()
-        $this->set(compact('names'));
+        $slides = R::findAll('slider');
+        
+        $products = $this->model->get_hits(1, 6);
+        
+        $this->set(compact('slides'));
+        $this->set(compact('products'));
     }
 }
