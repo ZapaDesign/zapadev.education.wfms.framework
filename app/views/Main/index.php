@@ -6,8 +6,7 @@ use zpdevfrw\View;
  * @var $products array
  */
 
-?>
-<?php
+
 if ( ! empty($slides)): ?>
     <div class="container-fluid my-carousel">
 

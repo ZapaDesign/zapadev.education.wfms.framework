@@ -1,3 +1,9 @@
+<?php
+
+use app\widgets\language\Language;
+use zpdevfrw\App;
+
+?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -103,20 +109,9 @@
                             <li><a class="dropdown-item" href="#">Регистрация</a></li>
                         </ul>
                     </div>
-
-                    <div class="dropdown d-inline-block">
-                        <a href="#" class="dropdown-toggle" data-bs-toggle="dropdown">
-                            <img src="<?= PATH ?>/assets/img/ru.png" alt="">
-                        </a>
-                        <ul class="dropdown-menu" id="languages">
-                            <li>
-                                <button class="dropdown-item" data-langcode="en">
-                                    <img src="<?= PATH ?>/assets/img/en.png" alt="">
-                                    English</button>
-                            </li>
-                        </ul>
-                    </div>
-
+                    
+                    <?php new Language() ?>
+                    
                 </div>
             </div>
         </div>
@@ -127,7 +122,7 @@
 
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container-fluid p-0">
-                    <a class="navbar-brand" href="index.html">Shop Brand</a>
+                    <a class="navbar-brand" href="/"><?php echo App::$app->getProperty('site_name'); ?></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
