@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.0.4
+-- version 5.1.1
 -- https://www.phpmyadmin.net/
 --
--- Хост: 127.0.0.1:3306
--- Время создания: Ноя 10 2021 г., 12:43
--- Версия сервера: 10.1.44-MariaDB
--- Версия PHP: 8.0.1
+-- Host: 127.0.0.1:3306
+-- Generation Time: Jul 19, 2022 at 03:01 PM
+-- Server version: 8.0.24
+-- PHP Version: 8.0.14
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -18,23 +18,23 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- База данных: `newishop`
+-- Database: `zpdev_ed_wfms_frw`
 --
 
 -- --------------------------------------------------------
 
 --
--- Структура таблицы `category`
+-- Table structure for table `category`
 --
 
 CREATE TABLE `category` (
-  `id` int(10) UNSIGNED NOT NULL,
-  `parent_id` int(10) UNSIGNED NOT NULL,
-  `slug` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL
+  `id` int UNSIGNED NOT NULL,
+  `parent_id` int UNSIGNED NOT NULL,
+  `slug` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Дамп данных таблицы `category`
+-- Dumping data for table `category`
 --
 
 INSERT INTO `category` (`id`, `parent_id`, `slug`) VALUES
@@ -49,20 +49,20 @@ INSERT INTO `category` (`id`, `parent_id`, `slug`) VALUES
 -- --------------------------------------------------------
 
 --
--- Структура таблицы `category_description`
+-- Table structure for table `category_description`
 --
 
 CREATE TABLE `category_description` (
-  `category_id` int(10) UNSIGNED NOT NULL,
-  `language_id` int(10) UNSIGNED NOT NULL,
-  `title` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `description` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `keywords` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `content` text COLLATE utf8mb4_unicode_ci
+  `category_id` int UNSIGNED NOT NULL,
+  `language_id` int UNSIGNED NOT NULL,
+  `title` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `description` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `keywords` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `content` text CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Дамп данных таблицы `category_description`
+-- Dumping data for table `category_description`
 --
 
 INSERT INTO `category_description` (`category_id`, `language_id`, `title`, `description`, `keywords`, `content`) VALUES
@@ -84,18 +84,18 @@ INSERT INTO `category_description` (`category_id`, `language_id`, `title`, `desc
 -- --------------------------------------------------------
 
 --
--- Структура таблицы `language`
+-- Table structure for table `language`
 --
 
 CREATE TABLE `language` (
-  `id` int(10) UNSIGNED NOT NULL,
-  `code` varchar(4) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `title` varchar(20) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `base` tinyint(3) UNSIGNED NOT NULL DEFAULT '0'
+  `id` int UNSIGNED NOT NULL,
+  `code` varchar(4) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `title` varchar(20) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `base` tinyint UNSIGNED NOT NULL DEFAULT '0'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Дамп данных таблицы `language`
+-- Dumping data for table `language`
 --
 
 INSERT INTO `language` (`id`, `code`, `title`, `base`) VALUES
@@ -105,16 +105,16 @@ INSERT INTO `language` (`id`, `code`, `title`, `base`) VALUES
 -- --------------------------------------------------------
 
 --
--- Структура таблицы `name`
+-- Table structure for table `name`
 --
 
 CREATE TABLE `name` (
-  `id` int(10) UNSIGNED NOT NULL,
-  `name` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL
+  `id` int UNSIGNED NOT NULL,
+  `name` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Дамп данных таблицы `name`
+-- Dumping data for table `name`
 --
 
 INSERT INTO `name` (`id`, `name`) VALUES
@@ -124,63 +124,63 @@ INSERT INTO `name` (`id`, `name`) VALUES
 -- --------------------------------------------------------
 
 --
--- Структура таблицы `product`
+-- Table structure for table `product`
 --
 
 CREATE TABLE `product` (
-  `id` int(10) UNSIGNED NOT NULL,
-  `category_id` int(10) UNSIGNED NOT NULL,
-  `slug` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `id` int UNSIGNED NOT NULL,
+  `category_id` int UNSIGNED NOT NULL,
+  `slug` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `price` double NOT NULL DEFAULT '0',
   `old_price` double NOT NULL DEFAULT '0',
-  `status` tinyint(4) NOT NULL DEFAULT '1',
-  `hit` tinyint(4) NOT NULL DEFAULT '0',
-  `img` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT 'uploads/no_image.jpg',
-  `is_download` tinyint(4) NOT NULL DEFAULT '0'
+  `status` tinyint NOT NULL DEFAULT '1',
+  `hit` tinyint NOT NULL DEFAULT '0',
+  `img` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT 'uploads/no_image.jpg',
+  `is_download` tinyint NOT NULL DEFAULT '0'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Дамп данных таблицы `product`
+-- Dumping data for table `product`
 --
 
 INSERT INTO `product` (`id`, `category_id`, `slug`, `price`, `old_price`, `status`, `hit`, `img`, `is_download`) VALUES
-(1, 7, 'canon-eos-5d', 10, 12, 1, 1, 'uploads/no_image.jpg', 0),
-(2, 4, 'apple-cinema-30', 20, 0, 1, 1, 'uploads/no_image.jpg', 0),
-(3, 4, 'imac', 25, 0, 1, 1, 'uploads/no_image.jpg', 0),
-(4, 6, 'iphone', 10, 0, 1, 1, 'uploads/no_image.jpg', 0),
-(5, 5, 'cifrovoj-tovar', 5, 0, 1, 1, 'uploads/no_image.jpg', 1),
-(6, 1, 'cifrovoj-tovar-2', 21, 0, 1, 0, 'uploads/no_image.jpg', 1),
-(7, 1, 'kompyuter-2', 22, 0, 1, 0, 'uploads/no_image.jpg', 0),
-(8, 1, 'kompyuter-3', 23, 0, 1, 0, 'uploads/no_image.jpg', 0),
-(9, 1, 'kompyuter-4', 24, 0, 1, 0, 'uploads/no_image.jpg', 0),
-(10, 1, 'kompyuter-5', 25, 0, 1, 0, 'uploads/no_image.jpg', 0),
-(11, 1, 'kompyuter-6', 26, 0, 1, 0, 'uploads/no_image.jpg', 0),
-(12, 1, 'kompyuter-7', 27, 0, 1, 0, 'uploads/no_image.jpg', 0),
-(13, 1, 'kompyuter-8', 28, 0, 1, 0, 'uploads/no_image.jpg', 0),
-(14, 1, 'kompyuter-9', 29, 0, 1, 0, 'uploads/no_image.jpg', 0),
-(15, 1, 'kompyuter-10', 30, 0, 1, 0, 'uploads/no_image.jpg', 0);
+(1, 7, 'canon-eos-5d', 10, 12, 1, 1, '/public/uploads/no_image.webp', 0),
+(2, 4, 'apple-cinema-30', 20, 0, 1, 1, '/public/uploads/no_image.webp', 0),
+(3, 4, 'imac', 25, 0, 1, 1, '/public/uploads/no_image.webp', 0),
+(4, 6, 'iphone', 10, 0, 1, 1, '/public/uploads/no_image.webp', 0),
+(5, 5, 'cifrovoj-tovar', 5, 0, 1, 1, '/public/uploads/no_image.webp', 1),
+(6, 1, 'cifrovoj-tovar-2', 21, 0, 1, 0, '/public/uploads/no_image.webp', 1),
+(7, 1, 'kompyuter-2', 22, 0, 1, 0, '/public/uploads/no_image.webp', 0),
+(8, 1, 'kompyuter-3', 23, 0, 1, 0, '/public/uploads/no_image.webp', 0),
+(9, 1, 'kompyuter-4', 24, 0, 1, 0, '/public/uploads/no_image.webp', 0),
+(10, 1, 'kompyuter-5', 25, 0, 1, 0, '/public/uploads/no_image.webp', 0),
+(11, 1, 'kompyuter-6', 26, 0, 1, 0, '/public/uploads/no_image.webp', 0),
+(12, 1, 'kompyuter-7', 27, 0, 1, 0, '/public/uploads/no_image.webp', 0),
+(13, 1, 'kompyuter-8', 28, 0, 1, 0, '/public/uploads/no_image.webp', 0),
+(14, 1, 'kompyuter-9', 29, 0, 1, 0, '/public/uploads/no_image.webp', 0),
+(15, 1, 'kompyuter-10', 30, 0, 1, 0, '/public/uploads/no_image.webp', 0);
 
 -- --------------------------------------------------------
 
 --
--- Структура таблицы `product_description`
+-- Table structure for table `product_description`
 --
 
 CREATE TABLE `product_description` (
-  `product_id` int(10) UNSIGNED NOT NULL,
-  `language_id` int(10) UNSIGNED NOT NULL,
-  `title` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `content` text COLLATE utf8mb4_unicode_ci NOT NULL,
-  `exerpt` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `keywords` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `description` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL
+  `product_id` int UNSIGNED NOT NULL,
+  `language_id` int UNSIGNED NOT NULL,
+  `title` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `content` text CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `excerpt` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `keywords` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `description` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Дамп данных таблицы `product_description`
+-- Dumping data for table `product_description`
 --
 
-INSERT INTO `product_description` (`product_id`, `language_id`, `title`, `content`, `exerpt`, `keywords`, `description`) VALUES
+INSERT INTO `product_description` (`product_id`, `language_id`, `title`, `content`, `excerpt`, `keywords`, `description`) VALUES
 (1, 1, 'Canon EOS 5D', '<p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали небезизвестный универсальный код речей. Текст генерируется абзацами случайным образом от двух до десяти предложений в абзаце, что позволяет сделать текст более привлекательным и живым для визуально-слухового восприятия. По своей сути рыбатекст является альтернативой традиционному lorem ipsum, который вызывает у некторых людей недоумение при попытках прочитать рыбу текст. В отличии от lorem ipsum, текст рыба на русском языке наполнит любой макет непонятным смыслом и придаст неповторимый колорит советских времен.</p>', 'Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать', NULL, NULL),
 (1, 2, 'Canon EOS 5D', '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam at ligula bibendum, sollicitudin mi ac, auctor urna. Nulla vulputate orci fermentum ante pretium blandit ut sed libero. Donec non feugiat turpis, et faucibus est. Vivamus lacus elit, ornare ultrices accumsan sed, pretium quis velit. Integer vel scelerisque odio. Vestibulum id dignissim urna. Fusce vitae urna vel magna dictum hendrerit in eget quam. Cras convallis metus enim, a iaculis metus scelerisque at. Vivamus vel ultricies est. Vivamus imperdiet tempor suscipit. Duis nibh sapien, feugiat a sagittis at, blandit vitae nulla. Sed rutrum vehicula fringilla. Praesent pretium elementum elit. Ut imperdiet sem vel tempor molestie. Maecenas convallis tortor a tincidunt egestas. In ultrices ornare suscipit. Suspendisse consequat eu felis et mollis. Aliquam viverra gravida est, sit amet venenatis arcu porttitor a. Sed maximus placerat sapien, nec fermentum quam luctus nec. Aenean semper ultrices urna eu fermentum. Nam at leo scelerisque, fermentum leo a, egestas odio. Fusce tincidunt magna mi, non pharetra neque egestas a. Sed sagittis vel nunc sed scelerisque. Pellentesque vestibulum quam ultrices fermentum maximus. In hac habitasse platea dictumst. Cras sit amet ornare mi, at efficitur libero. Morbi venenatis sapien a euismod finibus.</p>', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit', NULL, NULL),
 (2, 1, 'Apple cinema 30\"', 'Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали небезизвестный универсальный код речей. Текст генерируется абзацами случайным образом от двух до десяти предложений в абзаце, что позволяет сделать текст более привлекательным и живым для визуально-слухового восприятия.\r\nПо своей сути рыбатекст является альтернативой традиционному lorem ipsum, который вызывает у некторых людей недоумение при попытках прочитать рыбу текст. В отличии от lorem ipsum, текст рыба на русском языке наполнит любой макет непонятным смыслом и придаст неповторимый колорит советских времен.', 'Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать', NULL, NULL),
@@ -215,104 +215,104 @@ INSERT INTO `product_description` (`product_id`, `language_id`, `title`, `conten
 -- --------------------------------------------------------
 
 --
--- Структура таблицы `slider`
+-- Table structure for table `slider`
 --
 
 CREATE TABLE `slider` (
-  `id` int(10) UNSIGNED NOT NULL,
-  `img` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL
+  `id` int UNSIGNED NOT NULL,
+  `img` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Дамп данных таблицы `slider`
+-- Dumping data for table `slider`
 --
 
 INSERT INTO `slider` (`id`, `img`) VALUES
-(1, '/public/uploads/images/slider/1.jpg'),
-(2, '/public/uploads/images/slider/2.jpg'),
-(3, '/public/uploads/images/slider/3.jpg');
+(1, '/public/uploads/slider/1.jpg'),
+(2, '/public/uploads/slider/2.jpg'),
+(3, '/public/uploads/slider/3.jpg');
 
 --
--- Индексы сохранённых таблиц
+-- Indexes for dumped tables
 --
 
 --
--- Индексы таблицы `category`
+-- Indexes for table `category`
 --
 ALTER TABLE `category`
   ADD PRIMARY KEY (`id`),
   ADD KEY `slug` (`slug`(191));
 
 --
--- Индексы таблицы `category_description`
+-- Indexes for table `category_description`
 --
 ALTER TABLE `category_description`
   ADD PRIMARY KEY (`category_id`,`language_id`);
 
 --
--- Индексы таблицы `language`
+-- Indexes for table `language`
 --
 ALTER TABLE `language`
   ADD PRIMARY KEY (`id`);
 
 --
--- Индексы таблицы `name`
+-- Indexes for table `name`
 --
 ALTER TABLE `name`
   ADD PRIMARY KEY (`id`);
 
 --
--- Индексы таблицы `product`
+-- Indexes for table `product`
 --
 ALTER TABLE `product`
   ADD PRIMARY KEY (`id`),
   ADD KEY `slug` (`slug`(191));
 
 --
--- Индексы таблицы `product_description`
+-- Indexes for table `product_description`
 --
 ALTER TABLE `product_description`
   ADD PRIMARY KEY (`product_id`,`language_id`);
 
 --
--- Индексы таблицы `slider`
+-- Indexes for table `slider`
 --
 ALTER TABLE `slider`
   ADD PRIMARY KEY (`id`);
 
 --
--- AUTO_INCREMENT для сохранённых таблиц
+-- AUTO_INCREMENT for dumped tables
 --
 
 --
--- AUTO_INCREMENT для таблицы `category`
+-- AUTO_INCREMENT for table `category`
 --
 ALTER TABLE `category`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id` int UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 
 --
--- AUTO_INCREMENT для таблицы `language`
+-- AUTO_INCREMENT for table `language`
 --
 ALTER TABLE `language`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
--- AUTO_INCREMENT для таблицы `name`
+-- AUTO_INCREMENT for table `name`
 --
 ALTER TABLE `name`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
--- AUTO_INCREMENT для таблицы `product`
+-- AUTO_INCREMENT for table `product`
 --
 ALTER TABLE `product`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
+  MODIFY `id` int UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
 
 --
--- AUTO_INCREMENT для таблицы `slider`
+-- AUTO_INCREMENT for table `slider`
 --
 ALTER TABLE `slider`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

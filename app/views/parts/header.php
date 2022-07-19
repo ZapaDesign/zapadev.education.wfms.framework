@@ -34,7 +34,7 @@ use zpdevfrw\App;
                 <div class="col text-end icons">
                     <form>
                         <div class="input-group" id="search">
-                            <input type="text" class="form-control" placeholder="Search..." name="s">
+                            <input type="text" class="form-control" placeholder="<?= __('tpl_search') ?>" name="s">
                             <button class="btn close-search" type="button"><i class="fas fa-times"></i></i></button>
                             <button class="btn" type="submit"><i class="fas fa-search"></i></button>
                         </div>
@@ -105,8 +105,8 @@ use zpdevfrw\App;
                             <i class="far fa-user"></i>
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Авторизация</a></li>
-                            <li><a class="dropdown-item" href="#">Регистрация</a></li>
+                            <li><a class="dropdown-item" href="#"><?= __('tpl_login') ?></a></li>
+                            <li><a class="dropdown-item" href="#"><?= __('tpl_singup') ?></a></li>
                         </ul>
                     </div>
                     
@@ -122,7 +122,7 @@ use zpdevfrw\App;
 
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container-fluid p-0">
-                    <a class="navbar-brand" href="/"><?php echo App::$app->getProperty('site_name'); ?></a>
+                    <a class="navbar-brand" href="<?= base_url() ?>"><?php echo App::$app->getProperty('site_name'); ?></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
