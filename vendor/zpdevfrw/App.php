@@ -10,6 +10,9 @@ class App
     {
         $query = trim(urldecode($_SERVER['QUERY_STRING']), '/');
         new ErrorHandler();
+        //TODO e7n session_start()
+        session_start();
+//        session_unset();
         self::$app = Registry::getInstance();
         $this->getParams();
         Router::dispatch($query);

@@ -1038,3 +1038,77 @@
 ===============
 [2022-07-20 10:36:23] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
 ===============
+[2022-07-20 12:07:32] Error message: Controller app\controllers\CartController not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 72 
+===============
+[2022-07-20 12:07:32] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-20 12:23:04] Error message: Controller app\controllers\CartController not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 72 
+===============
+[2022-07-20 12:35:17] Error message: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'zpdev_ed_wfms_frw.product_id' doesn't exist | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | String: 206 
+===============
+[2022-07-20 12:37:43] Error message: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'zpdev_ed_wfms_frw.product_id' doesn't exist | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | String: 206 
+===============
+[2022-07-20 12:40:11] Error message: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'zpdev_ed_wfms_frw.product_id' doesn't exist | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | String: 206 
+===============
+[2022-07-20 12:46:22] Error message: View D:\zapaDEV\zapadev.education.wfms.framework/app/views/Cart/add.php not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\View.php | String: 34 
+===============
+[2022-07-20 12:48:38] Error message: View D:\zapaDEV\zapadev.education.wfms.framework/app/views/Cart/add.php not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\View.php | String: 34 
+===============
+[2022-07-20 12:50:59] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-20 12:52:19] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-20 12:52:19] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-20 12:52:21] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-20 12:52:22] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-20 12:52:32] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-20 13:52:43] Error message: View D:\zapaDEV\zapadev.education.wfms.framework/app/views/Cart/add.php not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\View.php | String: 34 
+===============
+[2022-07-20 13:52:54] Error message: View D:\zapaDEV\zapadev.education.wfms.framework/app/views/Cart/add.php not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\View.php | String: 34 
+===============
+[2022-07-20 13:54:00] Error message: Undefined array key "qty" | File: D:\zapaDEV\zapadev.education.wfms.framework\app\models\Cart.php | String: 26 
+===============
+[2022-07-20 13:54:29] Error message: Undefined array key "qty" | File: D:\zapaDEV\zapadev.education.wfms.framework\app\models\Cart.php | String: 26 
+===============
+[2022-07-20 13:54:43] Error message: View D:\zapaDEV\zapadev.education.wfms.framework/app/views/Cart/add.php not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\View.php | String: 34 
+===============
+[2022-07-20 14:01:00] Error message: Undefined variable $_SESSION | File: D:\zapaDEV\zapadev.education.wfms.framework\app\views\Main\index.php | String: 46 
+===============
+[2022-07-20 14:01:00] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-20 14:01:02] Error message: Undefined variable $_SESSION | File: D:\zapaDEV\zapadev.education.wfms.framework\app\views\Main\index.php | String: 46 
+===============
+[2022-07-20 14:01:06] Error message: Undefined variable $_SESSION | File: D:\zapaDEV\zapadev.education.wfms.framework\app\views\Main\index.php | String: 46 
+===============
+[2022-07-20 14:04:17] Error message: View D:\zapaDEV\zapadev.education.wfms.framework/app/views/Cart/add.php not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\View.php | String: 34 
+===============
+[2022-07-20 14:04:35] Error message: View D:\zapaDEV\zapadev.education.wfms.framework/app/views/Cart/add.php not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\View.php | String: 34 
+===============
+[2022-07-20 14:04:43] Error message: View D:\zapaDEV\zapadev.education.wfms.framework/app/views/Cart/add.php not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\View.php | String: 34 
+===============
+[2022-07-20 14:05:00] Error message: View D:\zapaDEV\zapadev.education.wfms.framework/app/views/Cart/add.php not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\View.php | String: 34 
+===============
+[2022-07-20 14:06:46] Error message: View D:\zapaDEV\zapadev.education.wfms.framework/app/views/Cart/add.php not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\View.php | String: 34 
+===============
+[2022-07-20 14:06:56] Error message: View D:\zapaDEV\zapadev.education.wfms.framework/app/views/Cart/add.php not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\View.php | String: 34 
+===============
+[2022-07-20 14:09:14] Error message: View D:\zapaDEV\zapadev.education.wfms.framework/app/views/Cart/add.php not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\View.php | String: 34 
+===============
+[2022-07-20 14:12:30] Error message: View D:\zapaDEV\zapadev.education.wfms.framework/app/views/Cart/add.php not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\View.php | String: 34 
+===============
+[2022-07-20 14:12:39] Error message: View D:\zapaDEV\zapadev.education.wfms.framework/app/views/Cart/add.php not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\View.php | String: 34 
+===============
+[2022-07-20 14:13:28] Error message: View D:\zapaDEV\zapadev.education.wfms.framework/app/views/Cart/add.php not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\View.php | String: 34 
+===============
+[2022-07-20 14:13:38] Error message: View D:\zapaDEV\zapadev.education.wfms.framework/app/views/Cart/add.php not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\View.php | String: 34 
+===============
+[2022-07-20 14:13:47] Error message: View D:\zapaDEV\zapadev.education.wfms.framework/app/views/Cart/add.php not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\View.php | String: 34 
+===============
+[2022-07-20 14:13:56] Error message: View D:\zapaDEV\zapadev.education.wfms.framework/app/views/Cart/add.php not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\View.php | String: 34 
+===============
+[2022-07-20 14:14:07] Error message: View D:\zapaDEV\zapadev.education.wfms.framework/app/views/Cart/add.php not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\View.php | String: 34 
+===============
