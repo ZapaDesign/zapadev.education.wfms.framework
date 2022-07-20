@@ -5,6 +5,7 @@ namespace app\controllers;
 use app\models\Main;
 use RedBeanPHP\R;
 use zpdevfrw\App;
+use zpdevfrw\Cashe;
 
 /**
  * @property Main $model
@@ -14,7 +15,11 @@ class MainController extends AppController
     public function indexAction()
     {
         
-       
+//        $test = 'Hello';
+//        $cache = Cashe::getInstance();
+//        $cache->set('test', $test, 30);
+        
+        
         $lang = App::$app->getProperty('language');
         
         $slides = R::findAll('slider');
