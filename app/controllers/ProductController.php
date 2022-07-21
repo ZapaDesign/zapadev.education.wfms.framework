@@ -2,6 +2,7 @@
 
 namespace app\controllers;
 
+use app\models\Breadcrumbs;
 use app\models\Product;
 use zpdevfrw\App;
 
@@ -18,12 +19,17 @@ class ProductController extends AppController
         $product = $this->model->get_product($this->route['slug'], $lang);
         
         if ( ! $product) {
-            throw new \Exception("Product {$this->route['slug']} not found", 404);
+//            throw new \Exception("Product {$this->route['slug']} not found", 404);
+            $this->error_404();
+            return;
         }
+        
+        $breadcrumbs = Breadcrumbs::getBreadcrumbs($product['category_id'], $product['title']);
+        
         
         $gallery = $this->model->get_gallery($product['id']);
         
         $this->setMeta($product['title'], $product['description'], $product['keywords'],);
-        $this->set(compact('product', 'gallery'));
+        $this->set(compact('product', 'gallery', 'breadcrumbs'));
     }
 }

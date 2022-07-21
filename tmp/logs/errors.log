@@ -620,3 +620,287 @@
 ===============
 [2022-07-21 15:17:30] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
 ===============
+[2022-07-21 15:38:15] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 15:38:15] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 15:38:15] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 15:38:30] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 15:38:30] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 15:38:54] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 15:38:54] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 15:42:05] Error message: Too few arguments to function zpdevfrw\Registry::setProperty(), 1 passed in D:\zapaDEV\zapadev.education.wfms.framework\app\widgets\menu\Menu.php on line 52 and exactly 2 expected | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Registry.php | String: 12 
+===============
+[2022-07-21 15:42:05] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 15:43:48] Error message: Too few arguments to function zpdevfrw\Registry::setProperty(), 1 passed in D:\zapaDEV\zapadev.education.wfms.framework\app\widgets\menu\Menu.php on line 52 and exactly 2 expected | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Registry.php | String: 12 
+===============
+[2022-07-21 15:43:48] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 15:43:50] Error message: Too few arguments to function zpdevfrw\Registry::setProperty(), 1 passed in D:\zapaDEV\zapadev.education.wfms.framework\app\widgets\menu\Menu.php on line 52 and exactly 2 expected | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Registry.php | String: 12 
+===============
+[2022-07-21 15:43:50] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 15:45:39] Error message: SQLSTATE[42000]: Syntax error or access violation: 1066 Not unique table/alias: 'cd' | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | String: 206 
+===============
+[2022-07-21 15:45:41] Error message: SQLSTATE[42000]: Syntax error or access violation: 1066 Not unique table/alias: 'cd' | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | String: 206 
+===============
+[2022-07-21 15:45:43] Error message: SQLSTATE[42000]: Syntax error or access violation: 1066 Not unique table/alias: 'cd' | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | String: 206 
+===============
+[2022-07-21 15:46:26] Error message: Too few arguments to function zpdevfrw\Registry::setProperty(), 1 passed in D:\zapaDEV\zapadev.education.wfms.framework\app\widgets\menu\Menu.php on line 52 and exactly 2 expected | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Registry.php | String: 12 
+===============
+[2022-07-21 15:46:26] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 15:52:55] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 15:52:55] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 15:52:57] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 15:52:57] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 15:52:59] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 15:52:59] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 15:53:01] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 15:53:01] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 15:55:42] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 15:55:43] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 15:55:45] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 15:55:45] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 15:55:46] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 15:55:46] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 15:55:49] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 15:55:49] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 15:55:51] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 15:55:51] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 15:58:17] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 15:58:17] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 15:58:19] Error message: Controller app\controllers\CategoryController not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 72 
+===============
+[2022-07-21 15:58:21] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 15:58:21] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 15:58:22] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 15:58:22] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 15:59:14] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 15:59:14] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 16:09:32] Error message: app\models\Breadcrumbs::getBreadcrumbs(): Return value must be of type string, none returned | File: D:\zapaDEV\zapadev.education.wfms.framework\app\models\Breadcrumbs.php | String: 16 
+===============
+[2022-07-21 16:09:37] Error message: app\models\Breadcrumbs::getBreadcrumbs(): Return value must be of type string, none returned | File: D:\zapaDEV\zapadev.education.wfms.framework\app\models\Breadcrumbs.php | String: 16 
+===============
+[2022-07-21 16:09:38] Error message: app\models\Breadcrumbs::getBreadcrumbs(): Return value must be of type string, none returned | File: D:\zapaDEV\zapadev.education.wfms.framework\app\models\Breadcrumbs.php | String: 16 
+===============
+[2022-07-21 16:09:42] Error message: app\models\Breadcrumbs::getBreadcrumbs(): Return value must be of type string, none returned | File: D:\zapaDEV\zapadev.education.wfms.framework\app\models\Breadcrumbs.php | String: 16 
+===============
+[2022-07-21 16:09:44] Error message: app\models\Breadcrumbs::getBreadcrumbs(): Return value must be of type string, none returned | File: D:\zapaDEV\zapadev.education.wfms.framework\app\models\Breadcrumbs.php | String: 16 
+===============
+[2022-07-21 16:09:45] Error message: app\models\Breadcrumbs::getBreadcrumbs(): Return value must be of type string, none returned | File: D:\zapaDEV\zapadev.education.wfms.framework\app\models\Breadcrumbs.php | String: 16 
+===============
+[2022-07-21 16:09:48] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 16:09:48] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 16:09:53] Error message: app\models\Breadcrumbs::getBreadcrumbs(): Return value must be of type string, none returned | File: D:\zapaDEV\zapadev.education.wfms.framework\app\models\Breadcrumbs.php | String: 16 
+===============
+[2022-07-21 16:21:21] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 16:21:22] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 16:21:34] Error message: Controller app\controllers\CategoryController not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 72 
+===============
+[2022-07-21 16:21:36] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 16:21:36] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 16:21:36] Error message: Controller app\controllers\CategoryController not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 72 
+===============
+[2022-07-21 16:21:38] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 16:21:38] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 16:22:59] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 16:22:59] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 16:23:01] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 16:23:01] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 16:23:04] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 16:23:04] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 16:23:06] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 16:23:06] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 16:23:08] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 16:23:08] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 16:23:09] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 16:23:09] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 16:24:48] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 16:24:48] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 16:25:21] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 16:25:21] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 16:25:29] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 16:25:29] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 16:25:47] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 16:25:47] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 16:26:21] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 16:26:21] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 16:27:03] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 16:27:03] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 16:27:18] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 16:27:18] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 16:27:20] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 16:27:22] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 16:27:22] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 16:27:24] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 16:27:24] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 16:27:26] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 16:27:26] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 16:27:30] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 16:27:31] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 16:27:31] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 16:27:32] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 16:27:32] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 16:27:38] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 16:27:38] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 16:27:41] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 16:27:41] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 16:29:45] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 16:29:45] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 16:29:49] Error message: Product imacl not found | File: D:\zapaDEV\zapadev.education.wfms.framework\app\controllers\ProductController.php | String: 22 
+===============
+[2022-07-21 16:29:51] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 16:29:51] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 16:37:40] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 16:37:41] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 16:37:44] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 16:37:44] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 16:37:49] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 16:37:49] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 16:37:53] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 16:37:53] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 16:37:57] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 16:37:57] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 16:38:26] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 16:38:26] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 16:38:28] Error message: Not found language jkjkj | File: D:\zapaDEV\zapadev.education.wfms.framework\app\widgets\language\Language.php | String: 43 
+===============
+[2022-07-21 16:38:31] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 16:38:31] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 16:39:51] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 16:39:51] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 16:40:00] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 16:40:00] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 16:41:08] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 16:41:08] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 16:43:37] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 16:43:37] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 16:46:45] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 16:46:45] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 16:46:48] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 16:46:49] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 16:46:52] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 16:46:52] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 16:47:19] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 16:47:19] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 16:47:22] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
+[2022-07-21 16:47:22] Error message: Page not found | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 75 
+===============
