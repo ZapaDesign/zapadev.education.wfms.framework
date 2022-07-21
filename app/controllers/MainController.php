@@ -5,7 +5,7 @@ namespace app\controllers;
 use app\models\Main;
 use RedBeanPHP\R;
 use zpdevfrw\App;
-use zpdevfrw\Cashe;
+use zpdevfrw\Cache;
 
 /**
  * @property Main $model
@@ -16,7 +16,7 @@ class MainController extends AppController
     {
         
 //        $test = 'Hello';
-//        $cache = Cashe::getInstance();
+//        $cache = Cache::getInstance();
 //        $cache->set('test', $test, 30);
         
         

@@ -2,7 +2,7 @@
 
 namespace zpdevfrw;
 
-class Cashe
+class Cache
 {
     use TSingleton;
     

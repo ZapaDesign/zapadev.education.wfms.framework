@@ -4,7 +4,7 @@ namespace app\widgets\menu;
 
 use RedBeanPHP\R;
 use zpdevfrw\App;
-use zpdevfrw\Cashe;
+use zpdevfrw\Cache;
 
 class Menu
 {
@@ -40,7 +40,7 @@ class Menu
     
     protected function run()
     {
-        $cache = Cashe::getInstance();
+        $cache = Cache::getInstance();
         $this->menuHtml = $cache->get("{$this->cacheKey}_{$this->language['code']}");
         
         if(!$this->menuHtml) {

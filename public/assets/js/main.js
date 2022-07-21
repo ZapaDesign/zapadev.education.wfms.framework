@@ -38,7 +38,7 @@ $(function () {
 
         const id = $(this).data('id')
         $.ajax({
-            url: '/cart/delete',
+            url: 'cart/delete',
             type: 'GET',
             data: {
                 id: id,
@@ -57,7 +57,7 @@ $(function () {
 
         const id = $(this).data('id')
         $.ajax({
-            url: '/cart/clear',
+            url: 'cart/clear',
             type: 'GET',
             success: function (res) {
                 showCart(res)
@@ -78,7 +78,7 @@ $(function () {
         const $this = $(this);
 
         $.ajax({
-            url: '/cart/add',
+            url: 'cart/add',
             type: 'GET',
             data: {
                 id: id,
