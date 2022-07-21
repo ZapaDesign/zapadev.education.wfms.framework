@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Jul 19, 2022 at 03:01 PM
+-- Generation Time: Jul 21, 2022 at 04:51 PM
 -- Server version: 8.0.24
 -- PHP Version: 8.0.14
 
@@ -215,6 +215,27 @@ INSERT INTO `product_description` (`product_id`, `language_id`, `title`, `conten
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `product_gallery`
+--
+
+CREATE TABLE `product_gallery` (
+  `id` int UNSIGNED NOT NULL,
+  `product_id` int UNSIGNED NOT NULL,
+  `img` varchar(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+--
+-- Dumping data for table `product_gallery`
+--
+
+INSERT INTO `product_gallery` (`id`, `product_id`, `img`) VALUES
+(1, 1, '/public/uploads/images/1.jpg'),
+(2, 1, '/public/uploads/images/2.jpg'),
+(3, 1, '/public/uploads/images/3.jpg');
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `slider`
 --
 
@@ -275,6 +296,12 @@ ALTER TABLE `product_description`
   ADD PRIMARY KEY (`product_id`,`language_id`);
 
 --
+-- Indexes for table `product_gallery`
+--
+ALTER TABLE `product_gallery`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `slider`
 --
 ALTER TABLE `slider`
@@ -307,6 +334,12 @@ ALTER TABLE `name`
 --
 ALTER TABLE `product`
   MODIFY `id` int UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
+
+--
+-- AUTO_INCREMENT for table `product_gallery`
+--
+ALTER TABLE `product_gallery`
+  MODIFY `id` int UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- AUTO_INCREMENT for table `slider`
