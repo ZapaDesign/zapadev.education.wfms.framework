@@ -27,7 +27,11 @@
                             <td><a href="product/<?= $item['slug'] ?>"><?= $item['title'] ?></a></td>
                             <td><?= $item['qty'] ?></td>
                             <td>$<?= $item['price'] ?></td>
-                            <td class="text-center"><a href="cart/delete?id=<?= $id ?>" class="del-item"><i class="far fa-trash-alt"></i></a></td>
+                            <td class="text-center">
+                                <a href="cart/delete?id=<?= $id ?>" class="del-item" data-id="<?= $id ?>">
+                                    <i class="far fa-trash-alt"></i>
+                                </a>
+                            </td>
                         </tr>
                     <?php
                     endforeach; ?>
@@ -60,7 +64,7 @@
     <?php
     if ( ! empty($_SESSION['cart'])): ?>
         <button type="button" class="btn btn-primary"><?= __('tpl_cart_btn_order') ?></button>
-        <button type="button" class="btn btn-danger"><?= __('tpl_cart_btn_clear') ?></button>
+        <button type="button" class="btn btn-danger" id="clear-cart"><?= __('tpl_cart_btn_clear') ?></button>
     <?php
     endif; ?>
 </div>

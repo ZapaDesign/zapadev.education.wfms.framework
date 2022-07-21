@@ -33,17 +33,18 @@ function base_url()
 /**
  * @param string $key Key of GET array
  * @param string $type Value 'i', 'f', 's'
+ *
  * @return float/int/string
  * */
 function get($key, $type = 'i')
 {
-    $param = $key;
+    $param  = $key;
     $$param = $_GET[$param] ?? '';
     
-    if($type == 'i') {
+    if ($type == 'i') {
         return (int)$$param;
     } elseif ($type == 'f') {
-        return  (float)$$param;
+        return (float)$$param;
     } else {
         return trim($$param);
     }
@@ -53,17 +54,18 @@ function get($key, $type = 'i')
 /**
  * @param string $key Key of {POST} array
  * @param string $type Value 'i', 'f', 's'
+ *
  * @return float/int/string
  * */
 function post($key, $type = 'i')
 {
-    $param = $key;
+    $param  = $key;
     $$param = $_POST[$param] ?? '';
     
-    if($type == 'i') {
+    if ($type == 'i') {
         return (int)$$param;
     } elseif ($type == 'f') {
-        return  (float)$$param;
+        return (float)$$param;
     } else {
         return trim($$param);
     }
@@ -77,4 +79,15 @@ function __($key)
 function ___($key)
 {
     return \zpdevfrw\Language::get($key);
+}
+
+function get_cart_icon($id)
+{
+    if(!empty($_SESSION['cart']) && array_key_exists($id, $_SESSION['cart'])) {
+        $icon = '<i class="fas fa-luggage-cart"></i>';
+    } else {
+        $icon = '<i class="fas fa-shopping-cart"></i>';
+    }
+    
+    return $icon;
 }
