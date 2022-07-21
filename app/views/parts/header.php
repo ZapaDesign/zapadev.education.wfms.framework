@@ -42,9 +42,11 @@ use zpdevfrw\App;
                     </form>
                     <a href="#" class="open-search"><i class="fas fa-search"></i></a>
 
-                    <a href="#" class="relative" data-bs-toggle="modal" data-bs-target="#cart-modal">
+                    <a href="#" class="relative" id="get-cart" data-bs-toggle="modal" data-bs-target="#cart-modal">
                         <i class="fas fa-shopping-cart"></i>
-                        <span class="badge bg-danger rounded-pill count-items">0</span>
+                        <span class="badge bg-danger rounded-pill count-items">
+                            <?= $_SESSION['cart.qty'] ?? 0 ?>
+                        </span>
                     </a>
                     <div class="modal fade" id="cart-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div class="modal-dialog modal-xl">
@@ -53,47 +55,8 @@ use zpdevfrw\App;
                                     <h5 class="modal-title" id="exampleModalLabel">Корзина</h5>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
-                                <div class="modal-body">
-                                    <table class="table text-start">
-                                        <thead>
-                                        <tr>
-                                            <th scope="col">Фото</th>
-                                            <th scope="col">Товар</th>
-                                            <th scope="col">Кол-во</th>
-                                            <th scope="col">Цена</th>
-                                        </tr>
-                                        </thead>
-                                        <tbody>
-                                        <tr>
-                                            <td>
-                                                <a href="#"><img src="<?= PATH ?>/assets/img/products/apple_cinema_30.jpg" alt=""></a>
-                                            </td>
-                                            <td><a href="#">Apple cinema</a></td>
-                                            <td>1</td>
-                                            <td>100</td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <a href="#"><img src="<?= PATH ?>/assets/img/products/canon_eos_5d_1.jpg" alt=""></a>
-                                            </td>
-                                            <td><a href="#">Canon EOS</a></td>
-                                            <td>1</td>
-                                            <td>100</td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <a href="#"><img src="<?= PATH ?>/assets/img/products/hp_1.jpg" alt=""></a>
-                                            </td>
-                                            <td><a href="#">HP</a></td>
-                                            <td>1</td>
-                                            <td>100</td>
-                                        </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-danger ripple" data-bs-dismiss="modal">Продолжить покупки</button>
-                                    <button type="button" class="btn btn-primary">Оформить заказ</button>
+                                <div class="modal-cart-content">
+                                
                                 </div>
                             </div>
                         </div>
@@ -143,30 +106,6 @@ use zpdevfrw\App;
                             'class' => 'navbar-nav ms-auto mb-2 mb-lg-0',
                             'cache' => 0,
                         ]) ?>
-
-<!--                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link" href="category.html">Компьютеры</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="category.html">Планшеты</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Ноутбуки
-                                </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item" href="category.html">Mac</a></li>
-                                    <li><a class="dropdown-item" href="category.html">Windows</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="category.html">Телефоны</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="category.html">Камеры</a>
-                            </li>
-                        </ul>-->
                     </div>
 
                 </div>

@@ -46,7 +46,7 @@ class View
     
     public function getMeta()
     {
-        //TODO Education: PHP_EOL
+        //TODO e7n: PHP_EOL
         $out = '<title>' . h($this->meta['title']) . ($this->meta['title'] ? ' :: ' : '') . App::$app->getProperty('site_name') . '</title>' . PHP_EOL;
         $out .= '<meta name="description" content="' . h($this->meta['description']) . '">' . PHP_EOL;
         $out .= '<meta name="keywords" content="' . h($this->meta['keywords']) . '">' . PHP_EOL;

@@ -10,8 +10,9 @@ class App
     {
         $query = trim(urldecode($_SERVER['QUERY_STRING']), '/');
         new ErrorHandler();
-        //TODO e7n session_start()
+        // TODO e7n session_start()
         session_start();
+        // TODO очистить корзину ($_SESSION)
 //        session_unset();
         self::$app = Registry::getInstance();
         $this->getParams();

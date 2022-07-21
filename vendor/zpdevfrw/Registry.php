@@ -2,7 +2,7 @@
 
 namespace zpdevfrw;
 
-//TODO Education: Паттерн "Реестр"
+//TODO e7n: Паттерн "Реестр"
 class Registry
 {
     use TSingleton;

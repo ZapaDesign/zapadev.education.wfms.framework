@@ -5,6 +5,29 @@ $(function () {
     * CART
     */
 
+    function showCart(cart) {
+        $('#cart-modal .modal-cart-content').html(cart)
+        const myModalEl = document.querySelector('#cart-modal')
+        const modal = bootstrap.Modal.getOrCreateInstance(myModalEl)
+        modal.show()
+    }
+
+    $('#get-cart').on('click', function (e) {
+        e.preventDefault()
+
+        $.ajax({
+            url: 'cart/show',
+            type: 'GET',
+            success: function (res) {
+                showCart(res)
+            },
+            error: function () {
+                alert('Error!')
+            }
+        })
+    })
+
+
     $('.add-to-cart').on('click', function (e) {
         e.preventDefault()
 
@@ -20,7 +43,7 @@ $(function () {
                 qty:qty,
             },
             success: function (res) {
-                console.log(res)
+                showCart(res)
             },
             error: function () {
                 alert('Error!')

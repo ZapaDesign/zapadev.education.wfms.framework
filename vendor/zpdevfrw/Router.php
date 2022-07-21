@@ -31,7 +31,7 @@ class Router
     {
         if ($url) {
             $params = explode('&', $url, 2);
-            //TODO Education: function str_contains() - PHP8
+            //TODO e7n: function str_contains() - PHP8
             if (false === str_contains($params[0], '=')) {
                 return rtrim($params[0], '/');
             }

@@ -8,29 +8,35 @@ use zpdevfrw\App;
 /**
  * @property Cart $model
  * */
-
 class CartController extends AppController
 {
     public function addAction()
     {
         $lang = App::$app->getProperty('language');
-        $id = get('id');
-        $qty = get('qty');
+        $id   = get('id');
+        $qty  = get('qty');
         
-        if(!$id) {
+        if ( ! $id) {
             return false;
         }
         
         $product = $this->model->get_product($id, $lang);
-        if(!$product) {
+        if ( ! $product) {
             return false;
         }
         
         $this->model->add_to_cart($product, $qty);
-        if($this->isAjax()) {
-            debug($_SESSION['cart'], 1);
+        if ($this->isAjax()) {
+            $this->loadView('cart_modal');
         } else {
             redirect();
+            
+            return true;
         }
+    }
+    
+    public function showAction()
+    {
+        $this->loadView('cart_modal');
     }
 }
