@@ -3,6 +3,7 @@
 namespace app\controllers;
 
 use app\models\Wishlist;
+use zpdevfrw\App;
 
 /**
  * @property Wishlist $model
@@ -10,6 +11,15 @@ use app\models\Wishlist;
 
 class WishlistController extends AppController
 {
+
+    public function indexAction()
+    {
+        $lang = App::$app->getProperty('language');
+        $products = $this->model->get_wishlist_products($lang);
+        $this->setMeta(___('wishlist_index_title'));
+        $this->set(compact('products'));
+    }
+
     public function addAction()
     {
         $id = get('id');
@@ -38,4 +48,5 @@ class WishlistController extends AppController
         }
         exit(json_encode($answer));
     }
+
 }

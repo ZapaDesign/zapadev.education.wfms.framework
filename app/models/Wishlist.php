@@ -10,7 +10,7 @@ class Wishlist extends AppModel
     {
         return R::getCell("SELECT id FROM product WHERE status = 1 AND id = ?", [$id]);
     }
-    
+
     public function add_to_wishlist($id)
     {
         $wishlist = self::get_wishlist_ids();
@@ -26,6 +26,19 @@ class Wishlist extends AppModel
                 setcookie('wishlist', $wishlist, time() + 3600*24*7*30, '/');
             }
         }
+    }
+
+    public function get_wishlist_products($lang): array
+    {
+        $wishlist = self::get_wishlist_ids();
+        if($wishlist){
+            $wishlist = implode(',', $wishlist);
+            return R::getAll(
+                "SELECT p.*, pd.* FROM product p JOIN product_description pd ON p.id = pd.product_id WHERE p.status = 1 AND p.id IN ($wishlist) AND pd.language_id = ? LIMIT 100",
+                [$lang['id']]
+            );
+        }
+        return [];
     }
     
     public static function get_wishlist_ids(): array

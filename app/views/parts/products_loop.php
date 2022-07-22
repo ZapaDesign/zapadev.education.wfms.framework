@@ -4,6 +4,8 @@
  * @var $products array
  */
 
+use zpdevfrw\App;
+
 foreach ($products as $product): ?>
 
     <div class="col-lg-4 col-sm-6 mb-3">
@@ -22,12 +24,19 @@ foreach ($products as $product): ?>
                         <?= $product['price'] ?>
                     </div>
                     <div class="product-links">
-                        <a class="add-to-cart" href="cart/add?id=<?= $product['id'] ?>" data-id="<?= $product['id'] ?>">
-                            <?= get_cart_icon($product['id']) ?>
+                        <a class="add-to-cart" href="cart/add?id=<?= $product['id'] ?>" data-id="<?= $product['id']; ?>">
+                            <?= get_cart_icon($product['id']); ?>
                         </a>
-                        <a class="add-to-wishlist" href="wishlist/add?id=<?= $product['id'] ?>" data-id="<?= $product['id'] ?>">
-                            <i class="far fa-heart"></i>
-                        </a>
+
+                        <?php if(in_array($product['id'], App::$app->getProperty('wishlist'))): ?>
+                            <a class="delete-from-wishlist" href="wishlist/delete?id=<?= $product['id'] ?>" data-id="<?= $product['id'] ?>">
+                                <i class="fas fa-hand-holding-heart"></i>
+                            </a>
+                        <?php else: ?>
+                            <a class="add-to-wishlist" href="wishlist/add?id=<?= $product['id']; ?>" data-id="<?= $product['id']; ?>">
+                                <i class="far fa-heart"></i>
+                            </a>
+                        <?php endif; ?>
                     </div>
                 </div>
             </div>
