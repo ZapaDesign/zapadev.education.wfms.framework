@@ -9,7 +9,7 @@ use zpdevfrw\App;
 <html lang="en">
 <head>
     <!-- Required meta tags -->
-    <base href="/">
+    <base href="<?= base_url() ?>">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="<?= PATH ?>/assets/bootstrap/css/bootstrap.min.css">
@@ -109,7 +109,7 @@ use zpdevfrw\App;
                         <?php
                         new Menu([
                             'class' => 'navbar-nav ms-auto mb-2 mb-lg-0',
-                            'cache' => 30,
+                            'cache' => 0,
                         ]) ?>
                     </div>
 
