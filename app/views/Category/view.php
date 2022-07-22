@@ -51,23 +51,36 @@
                 </div>
             <?php endif; ?>
 
-            <div class="row">
-                <div class="col-sm-6">
-                    <div class="input-group mb-3">
-                        <label class="input-group-text" for="input-sort"><?php __('category_view_sort') ?>:</label>
-                        <select class="form-select" id="input-sort">
-                            <option selected=""><?php __('category_view_sort_by_default') ?></option>
-                            <option value="1"><?php __('category_view_sort_title_asc') ?></option>
-                            <option value="2"><?php __('category_view_sort_title_desc') ?></option>
-                            <option value="3"><?php __('category_view_sort_price_asc') ?></option>
-                            <option value="3"><?php __('category_view_sort_price_desc') ?></option>
-                        </select>
+            <?php if(count($products) > 1 || $pagination->countPages > 1): ?>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="input-group mb-3">
+                            <label class="input-group-text" for="input-sort"><?php __('category_view_sort') ?>:</label>
+                            <select class="form-select" id="input-sort">
+                                <option selected="" disabled><?php __('category_view_sort_by_default') ?></option>
+                                
+                                <option value="sort=title_asc" <?php if(isset($_GET['sort']) && $_GET['sort'] == 'title_asc') echo 'selected' ?>>
+                                    <?php __('category_view_sort_title_asc') ?>
+                                </option>
+
+                                <option value="sort=title_desc" <?php if(isset($_GET['sort']) && $_GET['sort'] == 'title_desc') echo 'selected' ?>>
+                                    <?php __('category_view_sort_title_desc') ?>
+                                </option>
+                                <option value="sort=price_asc" <?php if(isset($_GET['sort']) && $_GET['sort'] == 'price_asc') echo 'selected' ?>>
+                                    <?php __('category_view_sort_price_asc') ?>
+                                </option>
+                                <option value="sort=price_desc" <?php if(isset($_GET['sort']) && $_GET['sort'] == 'price_desc') echo 'selected' ?>>
+                                    <?php __('category_view_sort_price_desc') ?>
+                                </option>
+                            </select>
+                        </div>
                     </div>
                 </div>
+            <?php endif; ?>
 
-                <div class="col-sm-6">
+<!--                <div class="col-sm-6">
                     <div class="input-group ">
-                        <label class="input-group-text" for="input-sort"><?php __('category_view_show') ?>:</label>
+                        <label class="input-group-text" for="input-sort"><?php /*__('category_view_show') */?>:</label>
                         <select class="form-select" id="input-sort">
                             <option selected="">15</option>
                             <option value="1">25</option>
@@ -76,8 +89,8 @@
                             <option value="3">100</option>
                         </select>
                     </div>
-                </div>
-            </div>
+                </div>-->
+
 
             <div class="row">
                 <?php if(!empty($products)): ?>

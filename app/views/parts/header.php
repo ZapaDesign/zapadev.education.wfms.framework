@@ -33,14 +33,23 @@ use zpdevfrw\App;
                     </a>
                 </div>
                 <div class="col text-end icons">
-                    <form>
+                    <form action="search">
                         <div class="input-group" id="search">
-                            <input type="text" class="form-control" placeholder="<?= __('tpl_search') ?>" name="s">
-                            <button class="btn close-search" type="button"><i class="fas fa-times"></i></i></button>
-                            <button class="btn" type="submit"><i class="fas fa-search"></i></button>
+                            <input type="text"
+                                   class="form-control"
+                                   placeholder="<?= __('tpl_search') ?>"
+                                   name="s">
+                            <button class="btn close-search" type="button">
+                                <i class="fas fa-times"></i></i>
+                            </button>
+                            <button class="btn" type="submit">
+                                <i class="fas fa-search"></i>
+                            </button>
                         </div>
                     </form>
-                    <a href="#" class="open-search"><i class="fas fa-search"></i></a>
+                    <a href="#" class="open-search">
+                        <i class="fas fa-search"></i>
+                    </a>
 
                     <a href="#" class="relative" id="get-cart" data-bs-toggle="modal" data-bs-target="#cart-modal">
                         <i class="fas fa-shopping-cart"></i>

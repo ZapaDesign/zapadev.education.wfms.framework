@@ -94,10 +94,12 @@ $(function () {
         })
     })
 
-
     // CART end
 
 
+    $('#input-sort').on('change', function () {
+        window.location = PATH + window.location.pathname + '?' + $(this).val()
+    })
 
 
     $('.open-search').click(function (e) {
