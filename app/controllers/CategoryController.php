@@ -23,6 +23,10 @@ class CategoryController extends AppController
         }
 
         $breadcrumbs = Breadcrumbs::getBreadcrumbs($category['id']);
-
+        $ids = $this->model->getIds($category['id']);
+        $ids = !$ids ? $category['id'] : $ids . $category['id'];
+        $products = $this->model->get_products($ids, $lang);
+        $this->setMeta($category['title'], $category['description'], $category['keywords']);
+        $this->set(compact('products', 'category', 'breadcrumbs'));
     }
 }
