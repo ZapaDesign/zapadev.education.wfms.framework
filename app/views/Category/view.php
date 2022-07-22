@@ -82,6 +82,20 @@
             <div class="row">
                 <?php if(!empty($products)): ?>
                     <?php $this->getPart('parts/products_loop', compact('products')); ?>
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p class="mt-4 mb-4">
+                                <?= count($products) ?>
+                                <?php __('tpl_total_pagination') ?>
+                                <?= $total ?>
+                            </p>
+                            
+                            <?php if( $pagination->countPages > 1 ): ?>
+                                <?= $pagination ?>
+                            <?php endif; ?>
+                        </div>
+                    </div>
                 <?php else: ?>
                     <div class="mt-5 mb-5">
                         <h2><?php __('category_view_no_products') ?></h2>
@@ -89,22 +103,7 @@
                 <?php endif; ?>
                 
             </div>
-
-            <div class="row">
-                <div class="col-md-12">
-                    <nav aria-label="Page navigation example">
-                        <ul class="pagination">
-                            <li class="page-item"><a class="page-link" href="#">Previous</a></li>
-                            <li class="page-item active"><a class="page-link" href="#">1</a></li>
-                            <li class="page-item"><a class="page-link" href="#">2</a></li>
-                            <li class="page-item"><a class="page-link" href="#">3</a></li>
-                            <li class="page-item"><a class="page-link" href="#">Next</a></li>
-                        </ul>
-                    </nav>
-                </div>
-
-            </div>
-
+            
         </div>
 
     </div>

@@ -17,23 +17,29 @@ class Category extends AppModel
     
     public function getIds($id): string
     {
-        $lang = App::$app->getProperty('language')['code'];
+        $lang       = App::$app->getProperty('language')['code'];
         $categories = App::$app->getProperty("categories_{$lang}");
-        $ids = '';
+        $ids        = '';
         foreach ($categories as $k => $v) {
             if ($v['parent_id'] == $id) {
                 $ids .= $k . ',';
                 $ids .= $this->getIds($k);
             }
         }
+        
         return $ids;
     }
     
-    public function get_products($ids, $lang): array
+    public function get_products($ids, $lang, $start, $perpage): array
     {
         return R::getAll(
-            "SELECT p.*, pd.* FROM product p JOIN product_description pd on p.id = pd.product_id WHERE p.status = 1 AND p.category_id IN ($ids) AND pd.language_id = ?",
+        "SELECT p.*, pd.* FROM product p JOIN product_description pd on p.id = pd.product_id WHERE p.status = 1 AND p.category_id IN ($ids) AND pd.language_id = ? LIMIT $start, $perpage",
             [$lang['id']]
         );
-    } 
+    }
+    
+    public function get_count_products($ids): int
+    {
+        return R::count('product', "category_id IN ($ids)");
+    }
 }
