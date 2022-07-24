@@ -2518,3 +2518,35 @@
 ===============
 [2022-07-23 18:49:47] Error message: Страница не найдена | File: G:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
 ===============
+[2022-07-24 09:54:05] Error message: Страница не найдена | File: G:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-24 09:54:12] Error message: Страница не найдена | File: G:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-24 10:05:55] Error message: Страница не найдена | File: G:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-24 15:22:10] Error message: Страница не найдена | File: G:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-24 15:22:11] Error message: Страница не найдена | File: G:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-24 15:35:40] Error message: Страница не найдена | File: G:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-24 15:35:48] Error message: Страница не найдена | File: G:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-24 15:35:52] Error message: Контроллер app\controllers\PageController не найден | File: G:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 60 
+===============
+[2022-07-24 15:35:52] Error message: Страница не найдена | File: G:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-24 15:46:59] Error message: Страница не найдена | File: G:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-24 16:22:11] Error message: Страница не найдена | File: G:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-24 16:22:15] Error message: Страница не найдена | File: G:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-24 16:22:19] Error message: Контроллер app\controllers\PageController не найден | File: G:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 60 
+===============
+[2022-07-24 16:33:33] Error message: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'page.id' in 'on clause' | File: G:\zapaDEV\zapadev.education.wfms.framework\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | String: 206 
+===============
+[2022-07-24 16:34:24] Error message: Страница не найдена | File: G:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-24 16:39:17] Error message: Страница не найдена | File: G:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
