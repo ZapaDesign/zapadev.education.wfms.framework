@@ -2588,3 +2588,7 @@
 ===============
 [2022-07-25 10:04:16] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
 ===============
+[2022-07-25 10:58:55] Error message: Fail to load language file 'D:\zapaDEV\zapadev.education.wfms.framework/applanguages/validator/lang/ru.php' | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\vlucas\valitron\src\Valitron\Validator.php | String: 118 
+===============
+[2022-07-25 10:58:55] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
