@@ -81,11 +81,10 @@ class CartController extends AppController
             // user registration if not authorized
             if ( ! User::checkAuth()) {
                 $user = new User();
-                $data = $_POST;
-                $user->load($data);
-                if ( ! $user->validate($data) || ! $user->checkUnique()) {
+                $user->load();
+                if ( ! $user->validate($user->attributes) || ! $user->checkUnique()) {
                     $user->getErrors();
-                    $_SESSION['form_data'] = $data;
+                    $_SESSION['form_data'] = $user->attributes;
                     redirect();
                 } else {
                     $user->attributes['password'] = password_hash($user->attributes['password'], PASSWORD_DEFAULT);
