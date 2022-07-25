@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Jul 21, 2022 at 04:51 PM
+-- Generation Time: Jul 25, 2022 at 06:15 PM
 -- Server version: 8.0.24
 -- PHP Version: 8.0.14
 
@@ -84,6 +84,51 @@ INSERT INTO `category_description` (`category_id`, `language_id`, `title`, `desc
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `download`
+--
+
+CREATE TABLE `download` (
+  `id` int UNSIGNED NOT NULL,
+  `filename` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `original_name` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Dumping data for table `download`
+--
+
+INSERT INTO `download` (`id`, `filename`, `original_name`) VALUES
+(1, 'price.zip.RNv58WWAW1mF6ly3gTPiq4gHA00tQQ2B', 'price.zip'),
+(2, 'test.txt.fdkrwrcsflytryz23423cf', 'test.txt'),
+(5, '100.jpg615487b659028', '100.jpg');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `download_description`
+--
+
+CREATE TABLE `download_description` (
+  `download_id` int UNSIGNED NOT NULL,
+  `language_id` int UNSIGNED NOT NULL,
+  `name` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Dumping data for table `download_description`
+--
+
+INSERT INTO `download_description` (`download_id`, `language_id`, `name`) VALUES
+(1, 1, 'Файл 1'),
+(1, 2, 'File 1'),
+(2, 1, 'Файл 2'),
+(2, 2, 'File 2'),
+(5, 1, 'Картинка'),
+(5, 2, 'Picture');
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `language`
 --
 
@@ -124,6 +169,135 @@ INSERT INTO `name` (`id`, `name`) VALUES
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `orders`
+--
+
+CREATE TABLE `orders` (
+  `id` int UNSIGNED NOT NULL,
+  `user_id` int UNSIGNED DEFAULT NULL,
+  `status` tinyint NOT NULL DEFAULT '0',
+  `note` text CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci,
+  `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `updated_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  `total` double NOT NULL,
+  `qty` int UNSIGNED DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Dumping data for table `orders`
+--
+
+INSERT INTO `orders` (`id`, `user_id`, `status`, `note`, `created_at`, `updated_at`, `total`, `qty`) VALUES
+(16, 11, 0, 'Some text ...', '2022-07-25 14:01:02', '2022-07-25 14:01:02', 170, 9),
+(17, 11, 0, 'order 2', '2022-07-25 14:15:02', '2022-07-25 14:15:02', 5, 1),
+(18, 11, 0, '3', '2022-07-25 14:15:58', '2022-07-25 14:15:58', 21, 1);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `order_download`
+--
+
+CREATE TABLE `order_download` (
+  `id` int UNSIGNED NOT NULL,
+  `order_id` int UNSIGNED NOT NULL,
+  `user_id` int UNSIGNED NOT NULL,
+  `product_id` int UNSIGNED NOT NULL,
+  `download_id` int UNSIGNED NOT NULL,
+  `status` tinyint UNSIGNED NOT NULL DEFAULT '0'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Dumping data for table `order_download`
+--
+
+INSERT INTO `order_download` (`id`, `order_id`, `user_id`, `product_id`, `download_id`, `status`) VALUES
+(8, 16, 11, 5, 1, 1),
+(9, 17, 11, 5, 1, 0),
+(10, 18, 11, 6, 2, 0);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `order_product`
+--
+
+CREATE TABLE `order_product` (
+  `id` int UNSIGNED NOT NULL,
+  `order_id` int UNSIGNED NOT NULL,
+  `product_id` int UNSIGNED NOT NULL,
+  `title` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `slug` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `qty` int UNSIGNED NOT NULL,
+  `price` double NOT NULL,
+  `sum` double NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Dumping data for table `order_product`
+--
+
+INSERT INTO `order_product` (`id`, `order_id`, `product_id`, `title`, `slug`, `qty`, `price`, `sum`) VALUES
+(15, 16, 5, 'Цифровой товар', 'cifrovoj-tovar', 1, 5, 5),
+(16, 16, 1, 'Canon EOS 5D', 'canon-eos-5d', 2, 10, 20),
+(17, 16, 2, 'Apple cinema 30\"', 'apple-cinema-30', 1, 20, 20),
+(18, 16, 3, 'iMac', 'imac', 5, 25, 125),
+(19, 17, 5, 'Цифровой товар', 'cifrovoj-tovar', 1, 5, 5),
+(20, 18, 6, 'Цифровой товар 2', 'cifrovoj-tovar-2', 1, 21, 21);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `page`
+--
+
+CREATE TABLE `page` (
+  `id` int UNSIGNED NOT NULL,
+  `slug` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Dumping data for table `page`
+--
+
+INSERT INTO `page` (`id`, `slug`) VALUES
+(1, 'o-magazine'),
+(2, 'oplata-i-dostavka'),
+(3, 'kontakty'),
+(4, 'testovaya-stranica');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `page_description`
+--
+
+CREATE TABLE `page_description` (
+  `page_id` int UNSIGNED NOT NULL,
+  `language_id` int UNSIGNED NOT NULL,
+  `title` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `content` text CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `keywords` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `description` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Dumping data for table `page_description`
+--
+
+INSERT INTO `page_description` (`page_id`, `language_id`, `title`, `content`, `keywords`, `description`) VALUES
+(1, 1, 'О магазине', 'Контент страницы О магазине', NULL, NULL),
+(1, 2, 'About shop', 'Content of the About shop page', NULL, NULL),
+(2, 1, 'Оплата и доставка', 'Контент страницы Оплата и доставка', NULL, NULL),
+(2, 2, 'Payment and delivery', 'Content of the page Payment and delivery', NULL, NULL),
+(3, 1, 'Контакты', 'Контент страницы Контакты', NULL, NULL),
+(3, 2, 'Contact', 'Contact page content', NULL, NULL),
+(4, 1, 'Тестовая страница', '<p>Контент тестовой страницы…!!</p><figure class=\"image\"><img src=\"/public/uploads/images/fields.jpg\"></figure>', '2', '1'),
+(4, 2, 'Test page', '<p>Test page content…123</p>', '4', '3');
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `product`
 --
 
@@ -151,7 +325,7 @@ INSERT INTO `product` (`id`, `category_id`, `slug`, `price`, `old_price`, `statu
 (5, 5, 'cifrovoj-tovar', 5, 0, 1, 1, '/public/uploads/no_image.webp', 1),
 (6, 1, 'cifrovoj-tovar-2', 21, 0, 1, 0, '/public/uploads/no_image.webp', 1),
 (7, 1, 'kompyuter-2', 22, 0, 1, 0, '/public/uploads/no_image.webp', 0),
-(8, 1, 'kompyuter-3', 23, 0, 1, 0, '/public/uploads/no_image.webp', 0),
+(8, 1, 'kompyuter-3', 23, 0, 1, 1, '/public/uploads/no_image.webp', 0),
 (9, 1, 'kompyuter-4', 24, 0, 1, 0, '/public/uploads/no_image.webp', 0),
 (10, 1, 'kompyuter-5', 25, 0, 1, 0, '/public/uploads/no_image.webp', 0),
 (11, 1, 'kompyuter-6', 26, 0, 1, 0, '/public/uploads/no_image.webp', 0),
@@ -215,23 +389,41 @@ INSERT INTO `product_description` (`product_id`, `language_id`, `title`, `conten
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `product_download`
+--
+
+CREATE TABLE `product_download` (
+  `product_id` int UNSIGNED NOT NULL,
+  `download_id` int UNSIGNED NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Dumping data for table `product_download`
+--
+
+INSERT INTO `product_download` (`product_id`, `download_id`) VALUES
+(5, 1),
+(6, 2);
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `product_gallery`
 --
 
 CREATE TABLE `product_gallery` (
   `id` int UNSIGNED NOT NULL,
   `product_id` int UNSIGNED NOT NULL,
-  `img` varchar(255) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+  `img` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
 -- Dumping data for table `product_gallery`
 --
 
 INSERT INTO `product_gallery` (`id`, `product_id`, `img`) VALUES
-(1, 1, '/public/uploads/images/1.jpg'),
-(2, 1, '/public/uploads/images/2.jpg'),
-(3, 1, '/public/uploads/images/3.jpg');
+(1, 2, '/public/uploads/images/1.jpg'),
+(2, 2, '/public/uploads/images/2.jpg');
 
 -- --------------------------------------------------------
 
@@ -253,6 +445,28 @@ INSERT INTO `slider` (`id`, `img`) VALUES
 (2, '/public/uploads/slider/2.jpg'),
 (3, '/public/uploads/slider/3.jpg');
 
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `user`
+--
+
+CREATE TABLE `user` (
+  `id` int UNSIGNED NOT NULL,
+  `email` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `password` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `name` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `address` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `role` enum('user','admin') CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT 'user'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Dumping data for table `user`
+--
+
+INSERT INTO `user` (`id`, `email`, `password`, `name`, `address`, `role`) VALUES
+(11, 'zapa.poltava@gmail.com', '$2y$10$LAu4cCW0Ns6xHH9sunF4hevMktS8eclmRBtElOE9Y9tLnUFAM/1EO', 'Запаренко Сергей3', 'ул. Александра Бедного 1, кв. 102', 'user');
+
 --
 -- Indexes for dumped tables
 --
@@ -271,6 +485,18 @@ ALTER TABLE `category_description`
   ADD PRIMARY KEY (`category_id`,`language_id`);
 
 --
+-- Indexes for table `download`
+--
+ALTER TABLE `download`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `download_description`
+--
+ALTER TABLE `download_description`
+  ADD PRIMARY KEY (`download_id`,`language_id`);
+
+--
 -- Indexes for table `language`
 --
 ALTER TABLE `language`
@@ -281,6 +507,37 @@ ALTER TABLE `language`
 --
 ALTER TABLE `name`
   ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `orders`
+--
+ALTER TABLE `orders`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `order_download`
+--
+ALTER TABLE `order_download`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `order_product`
+--
+ALTER TABLE `order_product`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `page`
+--
+ALTER TABLE `page`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `slug` (`slug`(191));
+
+--
+-- Indexes for table `page_description`
+--
+ALTER TABLE `page_description`
+  ADD PRIMARY KEY (`page_id`,`language_id`);
 
 --
 -- Indexes for table `product`
@@ -296,6 +553,12 @@ ALTER TABLE `product_description`
   ADD PRIMARY KEY (`product_id`,`language_id`);
 
 --
+-- Indexes for table `product_download`
+--
+ALTER TABLE `product_download`
+  ADD PRIMARY KEY (`product_id`,`download_id`);
+
+--
 -- Indexes for table `product_gallery`
 --
 ALTER TABLE `product_gallery`
@@ -308,6 +571,13 @@ ALTER TABLE `slider`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Indexes for table `user`
+--
+ALTER TABLE `user`
+  ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `email` (`email`);
+
+--
 -- AUTO_INCREMENT for dumped tables
 --
 
@@ -316,6 +586,12 @@ ALTER TABLE `slider`
 --
 ALTER TABLE `category`
   MODIFY `id` int UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+
+--
+-- AUTO_INCREMENT for table `download`
+--
+ALTER TABLE `download`
+  MODIFY `id` int UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- AUTO_INCREMENT for table `language`
@@ -330,6 +606,30 @@ ALTER TABLE `name`
   MODIFY `id` int UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
+-- AUTO_INCREMENT for table `orders`
+--
+ALTER TABLE `orders`
+  MODIFY `id` int UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
+
+--
+-- AUTO_INCREMENT for table `order_download`
+--
+ALTER TABLE `order_download`
+  MODIFY `id` int UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+
+--
+-- AUTO_INCREMENT for table `order_product`
+--
+ALTER TABLE `order_product`
+  MODIFY `id` int UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
+
+--
+-- AUTO_INCREMENT for table `page`
+--
+ALTER TABLE `page`
+  MODIFY `id` int UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+
+--
 -- AUTO_INCREMENT for table `product`
 --
 ALTER TABLE `product`
@@ -339,13 +639,19 @@ ALTER TABLE `product`
 -- AUTO_INCREMENT for table `product_gallery`
 --
 ALTER TABLE `product_gallery`
-  MODIFY `id` int UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `id` int UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT for table `slider`
 --
 ALTER TABLE `slider`
   MODIFY `id` int UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+
+--
+-- AUTO_INCREMENT for table `user`
+--
+ALTER TABLE `user`
+  MODIFY `id` int UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
