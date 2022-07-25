@@ -2550,3 +2550,41 @@
 ===============
 [2022-07-24 16:39:17] Error message: Страница не найдена | File: G:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
 ===============
+[2022-07-25 09:14:23] Error message: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'zpdev_ed_wfms_frw.page' doesn't exist | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | String: 206 
+===============
+[2022-07-25 09:14:26] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 09:14:30] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 09:14:33] Error message: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'zpdev_ed_wfms_frw.page' doesn't exist | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | String: 206 
+===============
+[2022-07-25 09:14:37] Error message: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'zpdev_ed_wfms_frw.page' doesn't exist | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | String: 206 
+===============
+[2022-07-25 09:14:40] Error message: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'zpdev_ed_wfms_frw.page' doesn't exist | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | String: 206 
+===============
+[2022-07-25 09:14:56] Error message: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'zpdev_ed_wfms_frw.page' doesn't exist | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | String: 206 
+===============
+[2022-07-25 09:15:00] Error message: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'zpdev_ed_wfms_frw.page' doesn't exist | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | String: 206 
+===============
+[2022-07-25 09:15:03] Error message: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'zpdev_ed_wfms_frw.page' doesn't exist | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | String: 206 
+===============
+[2022-07-25 09:15:05] Error message: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'zpdev_ed_wfms_frw.page' doesn't exist | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | String: 206 
+===============
+[2022-07-25 09:15:26] Error message: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'zpdev_ed_wfms_frw.page' doesn't exist | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | String: 206 
+===============
+[2022-07-25 09:15:29] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 09:15:31] Error message: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'zpdev_ed_wfms_frw.page' doesn't exist | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | String: 206 
+===============
+[2022-07-25 09:15:57] Error message: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'zpdev_ed_wfms_frw.page' doesn't exist | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | String: 206 
+===============
+[2022-07-25 09:16:02] Error message: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'zpdev_ed_wfms_frw.page' doesn't exist | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | String: 206 
+===============
+[2022-07-25 09:42:36] Error message: Call to undefined function get_field_value() | File: D:\zapaDEV\zapadev.education.wfms.framework\app\views\User\signup.php | String: 21 
+===============
+[2022-07-25 09:42:36] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 09:58:49] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 10:04:16] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
