@@ -535,3 +535,7 @@ a.thumbnail.active, a.thumbnail:focus, a.thumbnail:hover {
     }
 }
 
+
+.cart-table img {
+	max-height: 50px;
+}

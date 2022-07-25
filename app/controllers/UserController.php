@@ -39,6 +39,7 @@ class UserController extends AppController
     
     public function loginAction()
     {
+        
         if (User::checkAuth()) {
             redirect(base_url());
         }

@@ -2804,3 +2804,47 @@
 ===============
 [2022-07-25 12:51:08] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
 ===============
+[2022-07-25 13:43:43] Error message: Not found language cart | File: D:\zapaDEV\zapadev.education.wfms.framework\app\widgets\language\Language.php | String: 42 
+===============
+[2022-07-25 13:43:44] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 13:53:58] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 13:53:58] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 13:55:58] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 13:55:58] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 13:56:05] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 13:56:05] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 13:56:10] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 13:56:10] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 14:07:13] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 14:10:09] Error message: Undefined array key "user" | File: D:\zapaDEV\zapadev.education.wfms.framework\app\controllers\CartController.php | String: 73 
+===============
+[2022-07-25 14:34:30] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 14:35:58] Error message: Undefined array key "email" | File: D:\zapaDEV\zapadev.education.wfms.framework\app\controllers\UserController.php | String: 48 
+===============
+[2022-07-25 14:36:01] Error message: Undefined array key "email" | File: D:\zapaDEV\zapadev.education.wfms.framework\app\controllers\UserController.php | String: 48 
+===============
+[2022-07-25 14:36:06] Error message: Undefined array key "email" | File: D:\zapaDEV\zapadev.education.wfms.framework\app\controllers\UserController.php | String: 48 
+===============
+[2022-07-25 14:36:14] Error message: Undefined array key "email" | File: D:\zapaDEV\zapadev.education.wfms.framework\app\controllers\UserController.php | String: 48 
+===============
+[2022-07-25 14:39:36] Error message: Метод app\controllers\CartController::checkoutAction не найден | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 57 
+===============
+[2022-07-25 14:39:36] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 14:39:45] Error message: Undefined array key "user_id" | File: D:\zapaDEV\zapadev.education.wfms.framework\app\models\Order.php | String: 14 
+===============
+[2022-07-25 14:40:27] Error message: Undefined array key "user_id" | File: D:\zapaDEV\zapadev.education.wfms.framework\app\models\Order.php | String: 14 
+===============
+[2022-07-25 15:03:31] Error message: Undefined array key "user_id" | File: D:\zapaDEV\zapadev.education.wfms.framework\app\models\Order.php | String: 14 
+===============
