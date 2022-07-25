@@ -57,7 +57,7 @@ function get($key, $type = 'i')
  *
  * @return float/int/string
  * */
-function post($key, $type = 'i')
+function post($key, $type = 's')
 {
     $param  = $key;
     $$param = $_POST[$param] ?? '';
@@ -71,10 +71,18 @@ function post($key, $type = 'i')
     }
 }
 
+
+
+
+
 function __($key)
 {
     echo \zpdevfrw\Language::get($key);
 }
+
+
+
+
 
 function ___($key)
 {
@@ -92,7 +100,7 @@ function get_cart_icon($id)
     return $icon;
 }
 
-//function get_field_value($name)
-//{
-//    return isset($_SESSION['form_data'][$name]) ? h($_SESSION['form_data'][$name]) : '';
-//}
+function get_field_value($name)
+{
+    return isset($_SESSION['form_data'][$name]) ? h($_SESSION['form_data'][$name]) : '';
+}

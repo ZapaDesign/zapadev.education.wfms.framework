@@ -2592,3 +2592,215 @@
 ===============
 [2022-07-25 10:58:55] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
 ===============
+[2022-07-25 11:29:49] Error message: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'zapa.poltava@gmail.com' for key 'user.email' | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | String: 206 
+===============
+[2022-07-25 11:29:50] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 11:34:27] Error message: Array to string conversion | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\vlucas\valitron\src\Valitron\Validator.php | String: 113 
+===============
+[2022-07-25 11:34:40] Error message: Array to string conversion | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\vlucas\valitron\src\Valitron\Validator.php | String: 113 
+===============
+[2022-07-25 12:03:51] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:03:52] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:03:59] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:03:59] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:04:02] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:04:02] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:04:09] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:04:09] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:06:05] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:06:05] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:06:07] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:06:07] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:06:14] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:06:14] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:06:26] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:06:26] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:07:02] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:07:02] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:07:05] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:07:05] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:07:07] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:07:07] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:07:12] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:07:12] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:07:44] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:07:44] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:07:51] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:07:51] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:07:56] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:07:56] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:08:09] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:08:09] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:08:15] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:08:16] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:08:51] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:08:52] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:09:07] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:09:08] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:10:56] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:10:56] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:10:56] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:11:01] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:11:01] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:12:15] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:12:16] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:13:40] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:13:40] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:13:46] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:13:46] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:14:13] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:14:13] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:15:18] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:15:18] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:15:25] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:15:25] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:18:16] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:32:54] Error message: Undefined array key "excerpt" | File: D:\zapaDEV\zapadev.education.wfms.framework\app\views\parts\products_loop.php | String: 18 
+===============
+[2022-07-25 12:32:54] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:32:54] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:33:05] Error message: Undefined array key "excerpt" | File: D:\zapaDEV\zapadev.education.wfms.framework\app\views\parts\products_loop.php | String: 18 
+===============
+[2022-07-25 12:33:05] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:33:11] Error message: Undefined array key "excerpt" | File: D:\zapaDEV\zapadev.education.wfms.framework\app\views\parts\products_loop.php | String: 18 
+===============
+[2022-07-25 12:33:11] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:33:52] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:33:52] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:33:52] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:33:52] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:33:52] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:33:52] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:34:12] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:34:12] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:34:19] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:34:19] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:34:26] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:34:26] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:34:32] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:34:32] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:34:32] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:34:32] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:34:32] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:34:32] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:34:32] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:34:32] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:35:21] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:35:21] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:35:21] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:35:21] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:35:21] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:35:21] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:35:36] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:35:40] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:35:40] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:35:40] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:35:40] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:35:40] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:35:40] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:51:00] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:51:00] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:51:00] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:51:00] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:51:00] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-25 12:51:08] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
