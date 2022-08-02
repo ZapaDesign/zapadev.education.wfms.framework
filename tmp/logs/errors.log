@@ -2898,3 +2898,45 @@
 ===============
 [2022-07-25 17:55:45] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
 ===============
+[2022-07-27 14:02:18] Error message: Страница не найдена | File: D:\zapaDEV\_LAMP\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-08-02 12:36:12] Error message: No connection to DB | File: D:\zapaDEV\_LAMP\zapadev.education.wfms.framework\vendor\zpdevfrw\Db.php | String: 18 
+===============
+[2022-08-02 12:36:12] Error message: Страница не найдена | File: D:\zapaDEV\_LAMP\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-08-02 12:41:00] Error message: No connection to DB | File: D:\zapaDEV\_LAMP\zapadev.education.wfms.framework\vendor\zpdevfrw\Db.php | String: 18 
+===============
+[2022-08-02 12:41:01] Error message: No connection to DB | File: D:\zapaDEV\_LAMP\zapadev.education.wfms.framework\vendor\zpdevfrw\Db.php | String: 18 
+===============
+[2022-08-02 12:44:23] Error message: No connection to DB | File: D:\zapaDEV\_LAMP\zapadev.education.wfms.framework\vendor\zpdevfrw\Db.php | String: 18 
+===============
+[2022-08-02 12:44:25] Error message: No connection to DB | File: D:\zapaDEV\_LAMP\zapadev.education.wfms.framework\vendor\zpdevfrw\Db.php | String: 18 
+===============
+[2022-08-02 12:44:28] Error message: No connection to DB | File: D:\zapaDEV\_LAMP\zapadev.education.wfms.framework\vendor\zpdevfrw\Db.php | String: 18 
+===============
+[2022-08-02 12:44:28] Error message: Страница не найдена | File: D:\zapaDEV\_LAMP\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-08-02 12:44:53] Error message: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'zapar341_e7n_wfms_framework.slider' doesn't exist | File: D:\zapaDEV\_LAMP\zapadev.education.wfms.framework\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | String: 206 
+===============
+[2022-08-02 12:44:58] Error message: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'zapar341_e7n_wfms_framework.slider' doesn't exist | File: D:\zapaDEV\_LAMP\zapadev.education.wfms.framework\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | String: 206 
+===============
+[2022-08-02 12:44:59] Error message: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'zapar341_e7n_wfms_framework.slider' doesn't exist | File: D:\zapaDEV\_LAMP\zapadev.education.wfms.framework\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | String: 206 
+===============
+[2022-08-02 12:47:34] Error message: No connection to DB | File: D:\zapaDEV\_LAMP\zapadev.education.wfms.framework\vendor\zpdevfrw\Db.php | String: 18 
+===============
+[2022-08-02 12:47:35] Error message: No connection to DB | File: D:\zapaDEV\_LAMP\zapadev.education.wfms.framework\vendor\zpdevfrw\Db.php | String: 18 
+===============
+[2022-08-02 12:48:32] Error message: No connection to DB | File: D:\zapaDEV\_LAMP\zapadev.education.wfms.framework\vendor\zpdevfrw\Db.php | String: 18 
+===============
+[2022-08-02 12:48:34] Error message: No connection to DB | File: D:\zapaDEV\_LAMP\zapadev.education.wfms.framework\vendor\zpdevfrw\Db.php | String: 18 
+===============
+[2022-08-02 12:48:35] Error message: No connection to DB | File: D:\zapaDEV\_LAMP\zapadev.education.wfms.framework\vendor\zpdevfrw\Db.php | String: 18 
+===============
+[2022-08-02 12:49:17] Error message: htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated | File: D:\zapaDEV\_LAMP\zapadev.education.wfms.framework\vendor\zpdevfrw\helpers\functions.php | String: 13 
+===============
+[2022-08-02 12:49:23] Error message: htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated | File: D:\zapaDEV\_LAMP\zapadev.education.wfms.framework\vendor\zpdevfrw\helpers\functions.php | String: 13 
+===============
+[2022-08-02 12:49:46] Error message: htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated | File: D:\zapaDEV\_LAMP\zapadev.education.wfms.framework\vendor\zpdevfrw\helpers\functions.php | String: 13 
+===============
+[2022-08-02 12:52:25] Error message: Страница не найдена | File: D:\zapaDEV\_LAMP\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
