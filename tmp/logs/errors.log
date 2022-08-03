@@ -2974,3 +2974,5 @@
 ===============
 [2022-08-03 15:59:18] Error message: Страница не найдена | File: D:\zapaDEV\_LAMP\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
 ===============
+[2022-08-03 16:43:44] Error message: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'zapar341_e7n_wfms_framework.users' doesn't exist | File: D:\zapaDEV\_LAMP\zapadev.education.wfms.framework\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | String: 206 
+===============
