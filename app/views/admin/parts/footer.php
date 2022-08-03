@@ -24,7 +24,7 @@ use zpdevfrw\View;
 <!-- ./wrapper -->
 
 <div class="logs">
-    <?php // $this->getDbLogs(); ?>
+    <?php $this->getDbLogs(); ?>
 </div>
 
 <script>

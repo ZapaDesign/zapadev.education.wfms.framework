@@ -2940,3 +2940,37 @@
 ===============
 [2022-08-02 12:52:25] Error message: Страница не найдена | File: D:\zapaDEV\_LAMP\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
 ===============
+[2022-08-02 13:20:08] Error message: No connection to DB | File: D:\zapaDEV\_LAMP\zapadev.education.wfms.framework\vendor\zpdevfrw\Db.php | String: 18 
+===============
+[2022-08-02 13:22:46] Error message: No connection to DB | File: D:\zapaDEV\_LAMP\zapadev.education.wfms.framework\vendor\zpdevfrw\Db.php | String: 18 
+===============
+[2022-08-02 13:22:59] Error message: No connection to DB | File: D:\zapaDEV\_LAMP\zapadev.education.wfms.framework\vendor\zpdevfrw\Db.php | String: 18 
+===============
+[2022-08-02 13:24:10] Error message: No connection to DB | File: D:\zapaDEV\_LAMP\zapadev.education.wfms.framework\vendor\zpdevfrw\Db.php | String: 18 
+===============
+[2022-08-02 13:25:28] Error message: No connection to DB | File: D:\zapaDEV\_LAMP\zapadev.education.wfms.framework\vendor\zpdevfrw\Db.php | String: 18 
+===============
+[2022-08-02 13:26:32] Error message: No connection to DB | File: D:\zapaDEV\_LAMP\zapadev.education.wfms.framework\vendor\zpdevfrw\Db.php | String: 18 
+===============
+[2022-08-02 16:26:43] Error message: Not found language i | File: D:\zapaDEV\_LAMP\zapadev.education.wfms.framework\app\widgets\language\Language.php | String: 42 
+===============
+[2022-08-02 16:26:43] Error message: Страница не найдена | File: D:\zapaDEV\_LAMP\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-08-03 14:07:00] Error message: Страница не найдена | File: D:\zapaDEV\_LAMP\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-08-03 14:56:12] Error message: compact(): Undefined variable $title | File: D:\zapaDEV\_LAMP\zapadev.education.wfms.framework\app\controllers\admin\MainController.php | String: 10 
+===============
+[2022-08-03 14:56:12] Error message: Страница не найдена | File: D:\zapaDEV\_LAMP\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-08-03 15:42:22] Error message: View D:\zapaDEV\_LAMP\zapadev.education.wfms.framework/app/views/admin/User/login-admin.php not found | File: D:\zapaDEV\_LAMP\zapadev.education.wfms.framework\vendor\zpdevfrw\View.php | String: 34 
+===============
+[2022-08-03 15:42:23] Error message: Страница не найдена | File: D:\zapaDEV\_LAMP\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-08-03 15:42:36] Error message: View D:\zapaDEV\_LAMP\zapadev.education.wfms.framework/app/views/admin/User/login-admin.php not found | File: D:\zapaDEV\_LAMP\zapadev.education.wfms.framework\vendor\zpdevfrw\View.php | String: 34 
+===============
+[2022-08-03 15:44:56] Error message: Layout D:\zapaDEV\_LAMP\zapadev.education.wfms.framework/app/views/layouts/login.php not found | File: D:\zapaDEV\_LAMP\zapadev.education.wfms.framework\vendor\zpdevfrw\View.php | String: 42 
+===============
+[2022-08-03 15:59:18] Error message: Страница не найдена | File: D:\zapaDEV\_LAMP\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-08-03 15:59:18] Error message: Страница не найдена | File: D:\zapaDEV\_LAMP\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
