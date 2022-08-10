@@ -10,8 +10,10 @@ define("CACHE", ROOT . '/tmp/cache');
 define("LOGS", ROOT . '/tmp/logs');
 define("CONFIG", ROOT . '/config');
 define("LAYOUT", 'zpdevfrw');
-define("PATH", 'http://zapadev.education.wfms.framework');
-define("ADMIN", 'http://zapadev.education.wfms.framework/admin');
+define("PATH", 'https://zapadev-e7n-wfms-phpshop.herokuapp.com');
+define("ADMIN", 'https://zapadev-e7n-wfms-phpshop.herokuapp.com/admin');
+//define("PATH", 'http://zapadev.education.wfms.framework');
+//define("ADMIN", 'http://zapadev.education.wfms.framework/admin');
 define("NO_IMAGE", 'uploads/no_image.jpg');
 
 require_once ROOT . '/vendor/autoload.php';
