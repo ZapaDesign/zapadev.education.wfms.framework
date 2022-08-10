@@ -4,4 +4,4 @@
 /vendor/autoload.php
 /vendor/vlucas/
 /vendor/phpmailer/
-/config/config_db.php
+#/config/config_db.php

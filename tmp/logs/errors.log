@@ -2898,6 +2898,18 @@
 ===============
 [2022-07-25 17:55:45] Error message: Страница не найдена | File: D:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
 ===============
+[2022-07-25 21:05:28] Error message: Страница не найдена | File: G:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-27 23:25:31] Error message: htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated | File: G:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\helpers\functions.php | String: 13 
+===============
+[2022-07-27 23:25:32] Error message: Страница не найдена | File: G:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-07-27 23:25:41] Error message: htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated | File: G:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\helpers\functions.php | String: 13 
+===============
+[2022-07-27 23:25:44] Error message: htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated | File: G:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\helpers\functions.php | String: 13 
+===============
+[2022-07-27 23:34:38] Error message: Страница не найдена | File: G:\zapaDEV\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
 [2022-07-27 14:02:18] Error message: Страница не найдена | File: D:\zapaDEV\_LAMP\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
 ===============
 [2022-08-02 12:36:12] Error message: No connection to DB | File: D:\zapaDEV\_LAMP\zapadev.education.wfms.framework\vendor\zpdevfrw\Db.php | String: 18 
