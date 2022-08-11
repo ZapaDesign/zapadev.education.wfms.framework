@@ -16,8 +16,8 @@ define("NO_IMAGE", 'uploads/no_image.jpg');
 
 require_once ROOT . '/vendor/autoload.php';
 
-if (file_exists(__DIR__ . '/config/.env')) {
-    $dotenv = Dotenv::create(__DIR__);
+if (file_exists(__DIR__ . '/.env')) {
+    $dotenv = Dotenv::createUnsafeImmutable(__DIR__);
     $dotenv->safeLoad();
 }
 
