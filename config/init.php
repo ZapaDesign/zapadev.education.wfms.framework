@@ -1,5 +1,7 @@
 <?php
 
+use Dotenv\Dotenv;
+
 define("DEBUG", 1);
 define("ROOT", dirname(__DIR__));
 define("WWW", ROOT . '/public');
@@ -10,8 +12,13 @@ define("CACHE", ROOT . '/tmp/cache');
 define("LOGS", ROOT . '/tmp/logs');
 define("CONFIG", ROOT . '/config');
 define("LAYOUT", 'zpdevfrw');
-define("PATH", 'http://zapadev.education.wfms.framework');
-define("ADMIN", 'http://zapadev.education.wfms.framework/admin');
 define("NO_IMAGE", 'uploads/no_image.jpg');
 
 require_once ROOT . '/vendor/autoload.php';
+
+$dotenv = Dotenv::createImmutable(__DIR__);
+$dotenv->safeLoad();
+
+define("PATH", $_ENV['APP_URL']);
+define("ADMIN", $_ENV['APP_ADMIN_URL']);
+

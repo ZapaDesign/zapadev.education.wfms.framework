@@ -1,0 +1,8 @@
+<?php
+
+return [
+    'dsn'      => "{$_ENV['DB_CONNECTION']}:host={$_ENV['DB_HOST']}:{$_ENV['DB_PORT']};dbname={$_ENV['DB_DATABASE']};charset=utf8",
+    'user'     => $_ENV['DB_USERNAME'],
+    'password' => $_ENV['DB_PASSWORD'],
+    // 'password' => getenv('DB_PASSWORD')
+];

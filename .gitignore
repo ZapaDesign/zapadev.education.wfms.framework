@@ -5,3 +5,7 @@
 /vendor/vlucas/
 /vendor/phpmailer/
 /config/config_db.php
+/config/.env
+/vendor/graham-campbell/
+/vendor/phpoption/
+/vendor/symfony/
