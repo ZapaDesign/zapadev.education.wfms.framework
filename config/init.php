@@ -16,9 +16,9 @@ define("NO_IMAGE", 'uploads/no_image.jpg');
 
 require_once ROOT . '/vendor/autoload.php';
 
-$dotenv = Dotenv::createImmutable(__DIR__);
+$dotenv = Dotenv::createUnsafeImmutable(__DIR__);
 $dotenv->safeLoad();
 
-define("PATH", $_ENV['APP_URL']);
-define("ADMIN", $_ENV['APP_ADMIN_URL']);
+define("PATH", getenv('APP_URL'));
+define("ADMIN", getenv('APP_ADMIN_URL'));
 
