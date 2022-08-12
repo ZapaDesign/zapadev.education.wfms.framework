@@ -3004,3 +3004,25 @@
 ===============
 [2022-08-11 10:21:57] Error message: No connection to DB | File: D:\zapaDEV\_LAMP\zapadev.education.wfms.framework\vendor\zpdevfrw\Db.php | String: 18 
 ===============
+[2022-08-11 11:50:07] Error message: Unsupported database (). | File: D:\zapaDEV\_LAMP\zapadev.education.wfms.framework\vendor\gabordemooij\redbean\RedBeanPHP\Facade.php | String: 479 
+===============
+[2022-08-11 11:50:07] Error message: Страница не найдена | File: D:\zapaDEV\_LAMP\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-08-11 11:50:10] Error message: Unsupported database (). | File: D:\zapaDEV\_LAMP\zapadev.education.wfms.framework\vendor\gabordemooij\redbean\RedBeanPHP\Facade.php | String: 479 
+===============
+[2022-08-11 11:50:12] Error message: Unsupported database (). | File: D:\zapaDEV\_LAMP\zapadev.education.wfms.framework\vendor\gabordemooij\redbean\RedBeanPHP\Facade.php | String: 479 
+===============
+[2022-08-11 11:50:49] Error message: Unsupported database (). | File: D:\zapaDEV\_LAMP\zapadev.education.wfms.framework\vendor\gabordemooij\redbean\RedBeanPHP\Facade.php | String: 479 
+===============
+[2022-08-11 11:50:52] Error message: Unsupported database (). | File: D:\zapaDEV\_LAMP\zapadev.education.wfms.framework\vendor\gabordemooij\redbean\RedBeanPHP\Facade.php | String: 479 
+===============
+[2022-08-11 11:50:52] Error message: Unsupported database (). | File: D:\zapaDEV\_LAMP\zapadev.education.wfms.framework\vendor\gabordemooij\redbean\RedBeanPHP\Facade.php | String: 479 
+===============
+[2022-08-11 11:51:19] Error message: Unsupported database (). | File: D:\zapaDEV\_LAMP\zapadev.education.wfms.framework\vendor\gabordemooij\redbean\RedBeanPHP\Facade.php | String: 479 
+===============
+[2022-08-11 11:51:26] Error message: Unsupported database (). | File: D:\zapaDEV\_LAMP\zapadev.education.wfms.framework\vendor\gabordemooij\redbean\RedBeanPHP\Facade.php | String: 479 
+===============
+[2022-08-11 11:51:28] Error message: Unsupported database (). | File: D:\zapaDEV\_LAMP\zapadev.education.wfms.framework\vendor\gabordemooij\redbean\RedBeanPHP\Facade.php | String: 479 
+===============
+[2022-08-12 09:04:39] Error message: Страница не найдена | File: D:\zapaDEV\_LAMP\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============

@@ -2,7 +2,6 @@
 
 use Dotenv\Dotenv;
 
-define("DEBUG", 1);
 define("ROOT", dirname(__DIR__));
 define("WWW", ROOT . '/public');
 define("APP", ROOT . '/app');
@@ -21,6 +20,7 @@ if (file_exists(__DIR__ . '/.env')) {
     $dotenv->safeLoad();
 }
 
+define("DEBUG", getenv('DEBUG'));
 define("PATH", getenv('APP_URL'));
 define("ADMIN", getenv('APP_ADMIN_URL'));
 
