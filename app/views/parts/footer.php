@@ -56,7 +56,12 @@ use zpdevfrw\View;
     <i class="fas fa-angle-double-up"></i>
 </button>
 
-<?php $this->getDbLogs(); ?>
+<?php
+if(DEBUG){
+    $this->getDbLogs();
+}
+
+?>
 
 <script>
     const PATH = '<?= PATH ?>';
