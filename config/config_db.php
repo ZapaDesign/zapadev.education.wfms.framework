@@ -1,7 +1,10 @@
 <?php
-
+$DB_CONNECTION = getenv('DB_CONNECTION');
+$DB_HOST = getenv('DB_HOST');
+$DB_PORT = getenv('DB_PORT');
+$DB_DATABASE = getenv('DB_DATABASE');
 return [
-    'dsn'      => 'mysql:host=148.251.75.177:3310;dbname=zapar341_e7n_wfms_framework;charset=utf8',
-    'user'     => 'zapar341_zapadev',
-    'password' => 'gU3fS4hA2ubA2oD7cY5q'
+    'dsn'      => "{$DB_CONNECTION}:host={$DB_HOST}:{$DB_PORT};dbname={$DB_DATABASE};charset=utf8",
+    'user'     => getenv('DB_USERNAME'),
+    'password' => getenv('DB_PASSWORD'),
 ];

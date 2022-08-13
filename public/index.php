@@ -1,5 +1,6 @@
 <?php
 
+use Dotenv\Dotenv;
 use zpdevfrw\App;
 
 if(PHP_MAJOR_VERSION < 8){
@@ -11,6 +12,3 @@ require_once HELPERS . '/functions.php';
 require_once CONFIG . '/routs.php';
 
 new App();
-
-
-

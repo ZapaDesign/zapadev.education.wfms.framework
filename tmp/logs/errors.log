@@ -2988,3 +2988,31 @@
 ===============
 [2022-08-03 16:43:44] Error message: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'zapar341_e7n_wfms_framework.users' doesn't exist | File: D:\zapaDEV\_LAMP\zapadev.education.wfms.framework\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | String: 206 
 ===============
+[2022-08-04 10:57:48] Error message: Контроллер app\controllers\admin\OrderController не найден | File: D:\zapaDEV\_LAMP\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 60 
+===============
+[2022-08-04 10:57:53] Error message: Контроллер app\controllers\admin\OrdersController не найден | File: D:\zapaDEV\_LAMP\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 60 
+===============
+[2022-08-11 09:27:57] Error message: Страница не найдена | File: D:\zapaDEV\_LAMP\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-08-11 09:27:57] Error message: Страница не найдена | File: D:\zapaDEV\_LAMP\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-08-11 09:35:20] Error message: Страница не найдена | File: D:\zapaDEV\_LAMP\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-08-11 09:35:20] Error message: Страница не найдена | File: D:\zapaDEV\_LAMP\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-08-11 10:11:18] Error message: file_get_contents(D:\zapaDEV\_LAMP\zapadev.education.wfms.framework\public\.env): Failed to open stream: No such file or directory | File: D:\zapaDEV\_LAMP\zapadev.education.wfms.framework\vendor\vlucas\phpdotenv\src\Store\File\Reader.php | String: 73 
+===============
+[2022-08-11 10:11:18] Error message: Страница не найдена | File: D:\zapaDEV\_LAMP\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-08-11 10:11:18] Error message: file_get_contents(D:\zapaDEV\_LAMP\zapadev.education.wfms.framework\public\.env): Failed to open stream: No such file or directory | File: D:\zapaDEV\_LAMP\zapadev.education.wfms.framework\vendor\vlucas\phpdotenv\src\Store\File\Reader.php | String: 73 
+===============
+[2022-08-11 10:13:35] Error message: file_get_contents(D:\zapaDEV\_LAMP\zapadev.education.wfms.framework\config\.env): Failed to open stream: No such file or directory | File: D:\zapaDEV\_LAMP\zapadev.education.wfms.framework\vendor\vlucas\phpdotenv\src\Store\File\Reader.php | String: 73 
+===============
+[2022-08-11 10:13:35] Error message: Страница не найдена | File: D:\zapaDEV\_LAMP\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-08-11 10:13:35] Error message: file_get_contents(D:\zapaDEV\_LAMP\zapadev.education.wfms.framework\config\.env): Failed to open stream: No such file or directory | File: D:\zapaDEV\_LAMP\zapadev.education.wfms.framework\vendor\vlucas\phpdotenv\src\Store\File\Reader.php | String: 73 
+===============
+[2022-08-11 10:14:17] Error message: Страница не найдена | File: D:\zapaDEV\_LAMP\zapadev.education.wfms.framework\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-08-11 10:21:57] Error message: No connection to DB | File: D:\zapaDEV\_LAMP\zapadev.education.wfms.framework\vendor\zpdevfrw\Db.php | String: 18 
+===============
