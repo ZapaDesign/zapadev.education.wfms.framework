@@ -1,6 +1,6 @@
 <?php
-$DB_CONNECTION = getenv('DB_CONNECTION');
-$DB_HOST = getenv('DB_HOST');
+$DB_CONNECTION = $_ENV['DB_CONNECTION'];
+$DB_HOST = $_ENV['DB_HOST'];
 $DB_PORT = getenv('DB_PORT');
 $DB_DATABASE = getenv('DB_DATABASE');
 return [
