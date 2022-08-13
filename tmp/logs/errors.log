@@ -3016,3 +3016,9 @@
 ===============
 [2022-08-11 10:21:57] Error message: No connection to DB | File: D:\zapaDEV\_LAMP\zapadev.education.wfms.framework\vendor\zpdevfrw\Db.php | String: 18 
 ===============
+[2022-08-14 00:20:00] Error message: Unsupported database (). | File: D:\e7n.wfms.php-shop\vendor\gabordemooij\redbean\RedBeanPHP\Facade.php | String: 479 
+===============
+[2022-08-14 00:20:00] Error message: Страница не найдена | File: D:\e7n.wfms.php-shop\vendor\zpdevfrw\Router.php | String: 64 
+===============
+[2022-08-14 00:20:00] Error message: Страница не найдена | File: D:\e7n.wfms.php-shop\vendor\zpdevfrw\Router.php | String: 64 
+===============
