@@ -20,7 +20,7 @@ if (file_exists(__DIR__ . '/.env')) {
     $dotenv->safeLoad();
 }
 
-define("DEBUG", getenv('DEBUG'));
-define("PATH", getenv('APP_URL'));
-define("ADMIN", getenv('APP_ADMIN_URL'));
+define("DEBUG", $_ENV['DEBUG']);
+define("PATH", $_ENV['APP_URL']);
+define("ADMIN", $_ENV['APP_ADMIN_URL']);
 
