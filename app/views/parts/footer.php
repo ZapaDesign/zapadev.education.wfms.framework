@@ -57,12 +57,11 @@ use zpdevfrw\View;
 </button>
 
 <?php
-
-if (DEBUG) {
+if(DEBUG){
     $this->getDbLogs();
 }
-?>
 
+?>
 
 <script>
     const PATH = '<?= PATH ?>';
